@@ -1,0 +1,61 @@
+{
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "text",
+      "check": "String"
+    },
+    {
+      "type": "field_dropdown",
+      "name": "last_line",
+      "options": [
+        [
+          "Both",
+          "Both"
+        ],
+        [
+          "Internal",
+          "Internal"
+        ],
+        [
+          "External",
+          "External"
+        ]
+      ]
+    },
+    {
+      "type": "field_dropdown",
+      "name": "hide_base",
+      "options": [
+        [
+          "false",
+          "false"
+        ],
+        [
+          "true",
+          "true"
+        ]
+      ]
+    }
+  ],
+  "inputsInline": true,
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": "#771a77",
+  "mcreator": {
+    "toolbox_id": "deprecated_kcr_procedures",
+    "toolbox_init": [
+      "<value name=\"text\"><block type=\"text\"><field name=\"TEXT\">your_mod_id:textures/entities/texturename.png</field></block></value>"
+    ],
+    "inputs": [
+      "text"
+    ],
+    "fields": [
+      "last_line",
+      "hide_base"
+    ],
+    "required_apis": [
+      "kleidersplayerrenderer"
+    ]
+  }
+}

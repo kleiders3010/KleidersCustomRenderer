@@ -1,0 +1,29 @@
+{
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "texture",
+      "check": "String"
+    },
+    {
+      "type": "input_value",
+      "name": "slim",
+      "check": "Boolean"
+    }
+  ],
+  "inputsInline": true,
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": "#b02e2e",
+  "mcreator": {
+    "toolbox_id": "kleiderscustomrenderer",
+    "toolbox_init": [
+      "<value name=\"texture\"><block type=\"text\"><field name=\"TEXT\">your_mod_id:textures/entities/texturename.png</field></block></value>",
+      "<value name=\"slim\"><block type=\"logic_boolean\"><field name=\"BOOL\">FALSE</field></block></value>"
+    ],
+    "inputs": [
+      "texture",
+      "slim"
+    ]
+  }
+}

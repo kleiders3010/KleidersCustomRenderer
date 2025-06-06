@@ -1,0 +1,12 @@
+HeadExternal: 0
+BodyExternal: 1
+LeftLegExternal: 2
+RightLegExternal: 3
+LeftArmExternal: 4
+RightArmExternal: 5
+Head: 6
+Body: 7
+LeftLeg: 8
+RightLeg: 9
+LeftArm: 10
+RightArm: 11

@@ -1,0 +1,17 @@
+RenderArmEvent _evt = (RenderArmEvent) event;
+Minecraft mc = Minecraft.getInstance();
+EntityRenderDispatcher dis = mc.getEntityRenderDispatcher();
+Entity _evtEntity = _evt.getPlayer();
+PlayerRenderer playerRenderer = (PlayerRenderer) dis.getRenderer(_evt.getPlayer());
+EntityRendererProvider.Context context = new EntityRendererProvider.Context(dis, mc.getItemRenderer(), mc.getBlockRenderer(), dis.getItemInHandRenderer(), mc.getResourceManager(), mc.getEntityModels(), mc.font);
+MultiBufferSource bufferSource = _evt.getMultiBufferSource();
+int packedLight = _evt.getPackedLight();
+PoseStack poseStack = _evt.getPoseStack();
+PlayerModel<AbstractClientPlayer> playerModel = new PlayerModel<>(context.bakeLayer(ModelLayers.PLAYER), false);
+playerModel.attackTime = 0.0F;
+playerModel.crouching = false;
+playerModel.swimAmount = 0.0F;
+playerModel.setupAnim(_evt.getPlayer(), 0.0F, 0.0F, 0.0F, 0.0F, 0.0F);
+playerModel.leftArm.xRot = 0.0F;
+playerModel.rightArm.xRot = 0.0F;
+HumanoidArm arm = _evt.getArm();

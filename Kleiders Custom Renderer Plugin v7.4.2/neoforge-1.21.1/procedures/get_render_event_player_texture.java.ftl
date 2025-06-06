@@ -1,0 +1,1 @@
+(_evtEntity instanceof AbstractClientPlayer ? ((AbstractClientPlayer) _evtEntity).getSkin().texture().toString() : "kleiders_custom_renderer:textures/entities/default.png")

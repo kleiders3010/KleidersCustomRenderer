@@ -1,0 +1,20 @@
+{
+  "id": "kleidersplayerrenderer",
+  "weight": 30,
+  "minversion": 0,
+  "supportedversions": [
+    2024001,
+    2024002,
+	2024003,
+	2024004,
+	202400334715
+  ]
+,
+  "info": {
+    "name": "Kleiders Custom Renderer Plugin",
+    "version": "7.4.2",
+    "description": "A way to add Models and Texture layers to players",
+    "author": "Kleiders",
+    "credits": "Made with MCreator plugin builder by NerdyPuzzle"
+  }
+}

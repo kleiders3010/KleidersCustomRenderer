@@ -1,0 +1,12 @@
+{
+  "args0": [
+  ],
+  "inputsInline": true,
+  "output": "Boolean",
+  "colour": "#da005a",
+  "mcreator": {
+    "toolbox_id": "kleiderscustomrenderer",
+    "toolbox_init": [
+    ]
+  }
+}

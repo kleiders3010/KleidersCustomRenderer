@@ -1,0 +1,1 @@
+_sizeEvt.setNewSize(EntityDimensions.scalable((float) ${input$width}, (float) ${input$height}));

@@ -1,0 +1,19 @@
+{
+  "args0": [
+  ],
+  "inputsInline": true,
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": "#2eb035",
+  "mcreator": {
+    "toolbox_id": "entity_size",
+    "toolbox_init": [
+    ],
+    "dependencies": [
+      {
+        "name": "world",
+        "type": "world"
+      }
+    ]
+  }
+}
