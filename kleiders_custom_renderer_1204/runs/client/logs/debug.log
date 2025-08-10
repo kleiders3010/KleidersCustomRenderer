@@ -1,0 +1,785 @@
+[28Aug2024 17:59:45.690] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, 20.4.223, --assetIndex, asset-index, --assetsDir, C:\Users\uri_l\.mcreator\gradle\caches\minecraft\assets\1.20.4, --gameDir, ., --fml.neoForgeVersion, 20.4.223, --fml.fmlVersion, 2.0.17, --fml.mcVersion, 1.20.4, --fml.neoFormVersion, 20231207.154220]
+[28Aug2024 17:59:45.701] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.10 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[28Aug2024 17:59:45.772] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [minecraft,forgeclient,forgedatauserdev,testharness,forgeserverdev,forgeserveruserdev,forgeclientdev,forgeclientuserdev,forgeserver,forgedatadev]
+[28Aug2024 17:59:45.796] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Found naming services : [srgtomcp]
+[28Aug2024 17:59:45.810] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [mixin,slf4jfixer,runtime_enum_extender,accesstransformer,runtimedistcleaner]
+[28Aug2024 17:59:45.821] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
+[28Aug2024 17:59:45.827] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path GAMEDIR is C:\Users\uri_l\MCreatorWorkspaces\KCRVersions\kleiders_custom_renderer_1204\runs\client
+[28Aug2024 17:59:45.827] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path MODSDIR is C:\Users\uri_l\MCreatorWorkspaces\KCRVersions\kleiders_custom_renderer_1204\runs\client\mods
+[28Aug2024 17:59:45.827] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is C:\Users\uri_l\MCreatorWorkspaces\KCRVersions\kleiders_custom_renderer_1204\runs\client\config
+[28Aug2024 17:59:45.827] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is C:\Users\uri_l\MCreatorWorkspaces\KCRVersions\kleiders_custom_renderer_1204\runs\client\config\fml.toml
+[28Aug2024 17:59:45.859] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: Loaded FML config from C:\Users\uri_l\MCreatorWorkspaces\KCRVersions\kleiders_custom_renderer_1204\runs\client\config\fml.toml
+[28Aug2024 17:59:45.859] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig disableConfigWatcher is false
+[28Aug2024 17:59:45.859] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowControl is true
+[28Aug2024 17:59:45.859] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig maxThreads is 16
+[28Aug2024 17:59:45.859] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig versionCheck is true
+[28Aug2024 17:59:45.859] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig defaultConfigPath is defaultconfigs
+[28Aug2024 17:59:45.859] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig disableOptimizedDFU is true
+[28Aug2024 17:59:45.859] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowProvider is fmlearlywindow
+[28Aug2024 17:59:45.860] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowWidth is 854
+[28Aug2024 17:59:45.860] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowHeight is 480
+[28Aug2024 17:59:45.860] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowFBScale is 1
+[28Aug2024 17:59:45.860] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowMaximized is false
+[28Aug2024 17:59:45.860] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowSkipGLVersions is []
+[28Aug2024 17:59:45.860] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowSquir is false
+[28Aug2024 17:59:45.871] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: 
+[28Aug2024 17:59:45.890] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[28Aug2024 17:59:45.997] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[28Aug2024 17:59:46.348] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[28Aug2024 17:59:46.404] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer services : [mixin,mixin-synthetic-package,fml]
+[28Aug2024 17:59:46.404] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
+[28Aug2024 17:59:46.404] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin
+[28Aug2024 17:59:46.404] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin
+[28Aug2024 17:59:46.404] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin-synthetic-package
+[28Aug2024 17:59:46.404] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin-synthetic-package
+[28Aug2024 17:59:46.404] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
+[28Aug2024 17:59:46.405] [main/DEBUG] [net.neoforged.fml.loading.LauncherVersion/CORE]: Found FMLLauncher version 2.0
+[28Aug2024 17:59:46.405] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: FML 2.0 loading
+[28Aug2024 17:59:46.405] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: FML found ModLauncher version : 10.0.9+10.0.9+main.dcd20f30
+[28Aug2024 17:59:46.406] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: FML found AccessTransformer version : 10.0.1+139da711
+[28Aug2024 17:59:46.406] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: FML found EventBus version : null
+[28Aug2024 17:59:46.406] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: Found Runtime Dist Cleaner
+[28Aug2024 17:59:46.407] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: FML found CoreMod version : 6.0.4+main.1ed25481
+[28Aug2024 17:59:46.408] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: Found ForgeSPI package implementation version 2.0
+[28Aug2024 17:59:46.408] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: Found ForgeSPI package specification 2
+[28Aug2024 17:59:46.408] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
+[28Aug2024 17:59:46.408] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
+[28Aug2024 17:59:46.412] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
+[28Aug2024 17:59:46.414] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin
+[28Aug2024 17:59:46.424] [main/DEBUG] [mixin/]: MixinService [ModLauncher] was successfully booted in cpw.mods.cl.ModuleClassLoader@5c909414
+[28Aug2024 17:59:46.436] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/uri_l/.mcreator/gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.13.1+mixin.0.8.5/618f4dff860cf2d6b5196073b1a5f5e0a8591acb/sponge-mixin-0.13.1+mixin.0.8.5.jar%23137!/ Service=ModLauncher Env=CLIENT
+[28Aug2024 17:59:46.439] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
+[28Aug2024 17:59:46.439] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[28Aug2024 17:59:46.440] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[28Aug2024 17:59:46.440] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[28Aug2024 17:59:46.440] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[28Aug2024 17:59:46.441] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[28Aug2024 17:59:46.443] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin
+[28Aug2024 17:59:46.443] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin-synthetic-package
+[28Aug2024 17:59:46.443] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin-synthetic-package
+[28Aug2024 17:59:46.443] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
+[28Aug2024 17:59:46.443] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
+[28Aug2024 17:59:46.444] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path GAMEDIR is C:\Users\uri_l\MCreatorWorkspaces\KCRVersions\kleiders_custom_renderer_1204\runs\client
+[28Aug2024 17:59:46.444] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path MODSDIR is C:\Users\uri_l\MCreatorWorkspaces\KCRVersions\kleiders_custom_renderer_1204\runs\client\mods
+[28Aug2024 17:59:46.444] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is C:\Users\uri_l\MCreatorWorkspaces\KCRVersions\kleiders_custom_renderer_1204\runs\client\config
+[28Aug2024 17:59:46.444] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is C:\Users\uri_l\MCreatorWorkspaces\KCRVersions\kleiders_custom_renderer_1204\runs\client\config\fml.toml
+[28Aug2024 17:59:46.444] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Loading configuration
+[28Aug2024 17:59:46.447] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: Loaded FML config from C:\Users\uri_l\MCreatorWorkspaces\KCRVersions\kleiders_custom_renderer_1204\runs\client\config\fml.toml
+[28Aug2024 17:59:46.447] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig disableConfigWatcher is false
+[28Aug2024 17:59:46.447] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowControl is true
+[28Aug2024 17:59:46.447] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig maxThreads is 16
+[28Aug2024 17:59:46.448] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig versionCheck is true
+[28Aug2024 17:59:46.448] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig defaultConfigPath is defaultconfigs
+[28Aug2024 17:59:46.448] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig disableOptimizedDFU is true
+[28Aug2024 17:59:46.448] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowProvider is fmlearlywindow
+[28Aug2024 17:59:46.448] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowWidth is 854
+[28Aug2024 17:59:46.448] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowHeight is 480
+[28Aug2024 17:59:46.448] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowFBScale is 1
+[28Aug2024 17:59:46.448] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowMaximized is false
+[28Aug2024 17:59:46.448] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowSkipGLVersions is []
+[28Aug2024 17:59:46.448] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowSquir is false
+[28Aug2024 17:59:46.449] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Preparing ModFile
+[28Aug2024 17:59:46.452] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
+[28Aug2024 17:59:46.452] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: Using forgeclientuserdev as launch service
+[28Aug2024 17:59:46.463] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: Received command line version data  : VersionInfo[neoForgeVersion=20.4.223, fmlVersion=2.0.17, mcVersion=1.20.4, neoFormVersion=20231207.154220]
+[28Aug2024 17:59:46.463] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Configuring for Dist CLIENT
+[28Aug2024 17:59:46.464] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
+[28Aug2024 17:59:46.465] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Current naming domain is 'mcp'
+[28Aug2024 17:59:46.467] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Identified name mapping providers {srg=srgtomcp:1234}
+[28Aug2024 17:59:46.467] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
+[28Aug2024 17:59:46.467] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin
+[28Aug2024 17:59:46.467] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin
+[28Aug2024 17:59:46.467] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin-synthetic-package
+[28Aug2024 17:59:46.486] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin-synthetic-package
+[28Aug2024 17:59:46.487] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
+[28Aug2024 17:59:46.487] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
+[28Aug2024 17:59:46.487] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/SCAN]: Scanning for Mod Locators
+[28Aug2024 17:59:46.499] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModListHandler/CORE]: Found mod coordinates from lists: []
+[28Aug2024 17:59:46.503] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Mod Locators : (mods folder:2.0),(maven libs:2.0),(exploded directory:2.0),(minecraft:2.0),(userdev classpath:2.0),(builtin game layer libraries:2.0)
+[28Aug2024 17:59:46.503] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Dependency Locators : (JarInJar:2.0)
+[28Aug2024 17:59:46.503] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Scanning for mods and other resources to load. We know 6 ways to find mods
+[28Aug2024 17:59:46.503] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator {mods folder locator at C:\Users\uri_l\MCreatorWorkspaces\KCRVersions\kleiders_custom_renderer_1204\runs\client\mods}
+[28Aug2024 17:59:46.503] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModsFolderLocator/SCAN]: Scanning mods dir C:\Users\uri_l\MCreatorWorkspaces\KCRVersions\kleiders_custom_renderer_1204\runs\client\mods for mods
+[28Aug2024 17:59:46.506] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator {mods folder locator at C:\Users\uri_l\MCreatorWorkspaces\KCRVersions\kleiders_custom_renderer_1204\runs\client\mods} found 0 candidates or errors
+[28Aug2024 17:59:46.507] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator {mods folder locator at C:\Users\uri_l\MCreatorWorkspaces\KCRVersions\kleiders_custom_renderer_1204\runs\client\mods} found 0 valid mod files
+[28Aug2024 17:59:46.508] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator {Maven Directory locator for mods []}
+[28Aug2024 17:59:46.508] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator {Maven Directory locator for mods []} found 0 candidates or errors
+[28Aug2024 17:59:46.508] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator {Maven Directory locator for mods []} found 0 valid mod files
+[28Aug2024 17:59:46.508] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator {ExplodedDir locator}
+[28Aug2024 17:59:46.509] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator {ExplodedDir locator} found 0 candidates or errors
+[28Aug2024 17:59:46.509] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator {ExplodedDir locator} found 0 valid mod files
+[28Aug2024 17:59:46.510] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator net.neoforged.fml.loading.moddiscovery.MinecraftLocator@79c3f01f
+[28Aug2024 17:59:46.512] [main/DEBUG] [net.neoforged.fml.loading.targets.CommonLaunchHandler/CORE]: Got mod coordinates kleiders_custom_renderer_1204%%C:\Users\uri_l\MCreatorWorkspaces\KCRVersions\kleiders_custom_renderer_1204\build\resources\main;kleiders_custom_renderer_1204%%C:\Users\uri_l\MCreatorWorkspaces\KCRVersions\kleiders_custom_renderer_1204\build\classes\java\main from env
+[28Aug2024 17:59:46.515] [main/DEBUG] [net.neoforged.fml.loading.targets.CommonLaunchHandler/CORE]: Found supplied mod coordinates [{kleiders_custom_renderer_1204=[C:\Users\uri_l\MCreatorWorkspaces\KCRVersions\kleiders_custom_renderer_1204\build\resources\main, C:\Users\uri_l\MCreatorWorkspaces\KCRVersions\kleiders_custom_renderer_1204\build\classes\java\main]}]
+[28Aug2024 17:59:46.519] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce RTX 3080/PCIe/SSE2 GL version 4.6.0 NVIDIA 552.22, NVIDIA Corporation
+[28Aug2024 17:59:46.737] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file neoforge-20.4.223.jar with {minecraft} mods - versions {1.20.4}
+[28Aug2024 17:59:46.740] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractModProvider/SCAN]: Found META-INF/mods.toml mod of type null: [C:\Users\uri_l\MCreatorWorkspaces\KCRVersions\kleiders_custom_renderer_1204\build\resources\main, C:\Users\uri_l\MCreatorWorkspaces\KCRVersions\kleiders_custom_renderer_1204\build\classes\java\main]
+[28Aug2024 17:59:46.741] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\uri_l\MCreatorWorkspaces\KCRVersions\kleiders_custom_renderer_1204\build\resources\main
+[28Aug2024 17:59:46.750] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file main with {kleiders_custom_renderer} mods - versions {7.2.0}
+[28Aug2024 17:59:46.751] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractModProvider/SCAN]: Found META-INF/mods.toml mod of type null: []
+[28Aug2024 17:59:46.751] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /
+[28Aug2024 17:59:46.756] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file  with {neoforge} mods - versions {20.4.223}
+[28Aug2024 17:59:46.756] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator net.neoforged.fml.loading.moddiscovery.MinecraftLocator@79c3f01f found 3 candidates or errors
+[28Aug2024 17:59:46.757] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator net.neoforged.fml.loading.moddiscovery.MinecraftLocator@79c3f01f found 3 valid mod files
+[28Aug2024 17:59:46.757] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-20.4.223.jar" of type MOD with provider net.neoforged.fml.loading.moddiscovery.MinecraftLocator@79c3f01f
+[28Aug2024 17:59:46.757] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "main" of type MOD with provider net.neoforged.fml.loading.moddiscovery.MinecraftLocator@79c3f01f
+[28Aug2024 17:59:46.757] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "" of type MOD with provider net.neoforged.fml.loading.moddiscovery.MinecraftLocator@79c3f01f
+[28Aug2024 17:59:46.757] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator net.neoforged.fml.loading.moddiscovery.ClasspathLocator@53b98ff6
+[28Aug2024 17:59:46.782] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractModProvider/SCAN]: Found META-INF/mods.toml mod of type null: [C:\Users\uri_l\.mcreator\gradle\caches\modules-2\files-2.1\dev.kosmx.player-anim\player-animation-lib-forge\1.0.2-rc1+1.20.4\fb75d9e43d2accf35ad063325b4801d4fa830f6c\player-animation-lib-forge-1.0.2-rc1+1.20.4.jar]
+[28Aug2024 17:59:46.783] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\uri_l\.mcreator\gradle\caches\modules-2\files-2.1\dev.kosmx.player-anim\player-animation-lib-forge\1.0.2-rc1+1.20.4\fb75d9e43d2accf35ad063325b4801d4fa830f6c\player-animation-lib-forge-1.0.2-rc1+1.20.4.jar
+[28Aug2024 17:59:46.783] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file player-animation-lib-forge-1.0.2-rc1+1.20.4.jar with {playeranimator} mods - versions {1.0.2-rc1+1.20.4}
+[28Aug2024 17:59:46.787] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractModProvider/SCAN]: Found META-INF/mods.toml mod of type null: [C:\Users\uri_l\.mcreator\gradle\caches\modules-2\files-2.1\dev.kosmx.player-anim\player-animation-lib-forge\1.0.2-rc1+1.20.4\fb75d9e43d2accf35ad063325b4801d4fa830f6c\player-animation-lib-forge-1.0.2-rc1+1.20.4.jar]
+[28Aug2024 17:59:46.788] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\uri_l\.mcreator\gradle\caches\modules-2\files-2.1\dev.kosmx.player-anim\player-animation-lib-forge\1.0.2-rc1+1.20.4\fb75d9e43d2accf35ad063325b4801d4fa830f6c\player-animation-lib-forge-1.0.2-rc1+1.20.4.jar
+[28Aug2024 17:59:46.789] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file player-animation-lib-forge-1.0.2-rc1+1.20.4.jar with {playeranimator} mods - versions {1.0.2-rc1+1.20.4}
+[28Aug2024 17:59:46.789] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator net.neoforged.fml.loading.moddiscovery.ClasspathLocator@53b98ff6 found 2 candidates or errors
+[28Aug2024 17:59:46.789] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator net.neoforged.fml.loading.moddiscovery.ClasspathLocator@53b98ff6 found 2 valid mod files
+[28Aug2024 17:59:46.789] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "player-animation-lib-forge-1.0.2-rc1+1.20.4.jar" of type MOD with provider net.neoforged.fml.loading.moddiscovery.ClasspathLocator@53b98ff6
+[28Aug2024 17:59:46.789] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "player-animation-lib-forge-1.0.2-rc1+1.20.4.jar" of type MOD with provider net.neoforged.fml.loading.moddiscovery.ClasspathLocator@53b98ff6
+[28Aug2024 17:59:46.789] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator net.neoforged.fml.loading.moddiscovery.BuiltinGameLibraryLocator@5f8890c2
+[28Aug2024 17:59:46.790] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator net.neoforged.fml.loading.moddiscovery.BuiltinGameLibraryLocator@5f8890c2 found 0 candidates or errors
+[28Aug2024 17:59:46.790] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator net.neoforged.fml.loading.moddiscovery.BuiltinGameLibraryLocator@5f8890c2 found 0 valid mod files
+[28Aug2024 17:59:46.798] [main/DEBUG] [net.neoforged.fml.loading.UniqueModListBuilder/]: Found 2 mods for first modid playeranimator, selecting most recent based on version data
+[28Aug2024 17:59:46.799] [main/DEBUG] [net.neoforged.fml.loading.UniqueModListBuilder/]: Selected file player-animation-lib-forge-1.0.2-rc1+1.20.4.jar for modid playeranimator with version 1.0.2-rc1+1.20.4
+[28Aug2024 17:59:46.803] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Successfully Loaded 4 mods. Attempting to load dependencies...
+[28Aug2024 17:59:46.803] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator net.neoforged.fml.loading.moddiscovery.JarInJarDependencyLocator@7b22ec89
+[28Aug2024 17:59:46.815] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from main, it does not contain dependency information.
+[28Aug2024 17:59:46.815] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from player-animation-lib-forge-1.0.2-rc1+1.20.4.jar, it does not contain dependency information.
+[28Aug2024 17:59:46.891] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractModProvider/SCAN]: Found META-INF/MANIFEST.MF mod of type GAMELIBRARY: []
+[28Aug2024 17:59:46.896] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractModProvider/SCAN]: Found META-INF/MANIFEST.MF mod of type GAMELIBRARY: []
+[28Aug2024 17:59:46.897] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from mixinextras-neoforge-0.3.5.jar, it does not contain dependency information.
+[28Aug2024 17:59:46.897] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from mixinextras-neoforge-0.3.5.jar, it does not contain dependency information.
+[28Aug2024 17:59:46.954] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractModProvider/SCAN]: Found META-INF/MANIFEST.MF mod of type GAMELIBRARY: []
+[28Aug2024 17:59:46.958] [main/INFO] [net.neoforged.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
+[28Aug2024 17:59:46.960] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mixinextras-neoforge-0.3.5.jar" of type GAMELIBRARY with provider net.neoforged.fml.loading.moddiscovery.JarInJarDependencyLocator@7b22ec89
+[28Aug2024 17:59:46.962] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file neoforge-20.4.223.jar with {minecraft} mods - versions {1.20.4}
+[28Aug2024 17:59:46.967] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\uri_l\MCreatorWorkspaces\KCRVersions\kleiders_custom_renderer_1204\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\20.4.223\neoforge-20.4.223.jar with languages [LanguageSpec[languageName=minecraft, acceptedVersions=1]]
+[28Aug2024 17:59:46.969] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\uri_l\MCreatorWorkspaces\KCRVersions\kleiders_custom_renderer_1204\build\resources\main
+[28Aug2024 17:59:46.972] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file main with {kleiders_custom_renderer} mods - versions {7.2.0}
+[28Aug2024 17:59:46.972] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\uri_l\MCreatorWorkspaces\KCRVersions\kleiders_custom_renderer_1204\build\resources\main with languages [LanguageSpec[languageName=javafml, acceptedVersions=[2,)]]
+[28Aug2024 17:59:46.973] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\uri_l\.mcreator\gradle\caches\modules-2\files-2.1\dev.kosmx.player-anim\player-animation-lib-forge\1.0.2-rc1+1.20.4\fb75d9e43d2accf35ad063325b4801d4fa830f6c\player-animation-lib-forge-1.0.2-rc1+1.20.4.jar
+[28Aug2024 17:59:46.974] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file player-animation-lib-forge-1.0.2-rc1+1.20.4.jar with {playeranimator} mods - versions {1.0.2-rc1+1.20.4}
+[28Aug2024 17:59:46.974] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\uri_l\.mcreator\gradle\caches\modules-2\files-2.1\dev.kosmx.player-anim\player-animation-lib-forge\1.0.2-rc1+1.20.4\fb75d9e43d2accf35ad063325b4801d4fa830f6c\player-animation-lib-forge-1.0.2-rc1+1.20.4.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=*]]
+[28Aug2024 17:59:46.975] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Found mixin config playerAnimator-common.mixins.json
+[28Aug2024 17:59:46.975] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /
+[28Aug2024 17:59:46.977] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file  with {neoforge} mods - versions {20.4.223}
+[28Aug2024 17:59:46.978] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file / with languages [LanguageSpec[languageName=javafml, acceptedVersions=[1,]]]
+[28Aug2024 17:59:46.982] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_method with Javascript path coremods/field_to_method.js
+[28Aug2024 17:59:46.982] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_instanceof with Javascript path coremods/field_to_instanceof.js
+[28Aug2024 17:59:46.982] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod add_bouncer_method with Javascript path coremods/add_bouncer_method.js
+[28Aug2024 17:59:46.982] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod method_redirector with Javascript path coremods/method_redirector.js
+[28Aug2024 17:59:46.982] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_method.js
+[28Aug2024 17:59:46.984] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_instanceof.js
+[28Aug2024 17:59:46.984] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/add_bouncer_method.js
+[28Aug2024 17:59:46.984] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/method_redirector.js
+[28Aug2024 17:59:46.984] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file  with languages []
+[28Aug2024 17:59:46.985] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModValidator/SCAN]: Found 5 mod files with 4 mods
+[28Aug2024 17:59:46.986] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service fml
+[28Aug2024 17:59:46.992] [main/DEBUG] [net.neoforged.fml.loading.LanguageLoadingProvider/CORE]: Found 3 language providers
+[28Aug2024 17:59:46.993] [main/DEBUG] [net.neoforged.fml.loading.LanguageLoadingProvider/CORE]: Found language provider javafml, version 2.0
+[28Aug2024 17:59:46.994] [main/DEBUG] [net.neoforged.fml.loading.LanguageLoadingProvider/CORE]: Found language provider lowcodefml, version 2.0
+[28Aug2024 17:59:46.994] [main/DEBUG] [net.neoforged.fml.loading.LanguageLoadingProvider/CORE]: Found language provider minecraft, version 2.0
+[28Aug2024 17:59:47.000] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/]: Configured system mods: [minecraft, neoforge]
+[28Aug2024 17:59:47.001] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/]: Found system mod: minecraft
+[28Aug2024 17:59:47.001] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/]: Found system mod: neoforge
+[28Aug2024 17:59:47.003] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/LOADING]: Found 5 mod requirements (3 mandatory, 2 optional)
+[28Aug2024 17:59:47.005] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/LOADING]: Found 0 mod requirements missing (0 mandatory, 0 optional)
+[28Aug2024 17:59:47.433] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/SCAN]: Adding Access Transformer in C:\Users\uri_l\MCreatorWorkspaces\KCRVersions\kleiders_custom_renderer_1204\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\20.4.223\neoforge-20.4.223.jar
+[28Aug2024 17:59:47.441] [main/DEBUG] [AXFORM/AXFORM]: Loading access transformer accesstransformer.cfg
+[28Aug2024 17:59:47.586] [main/DEBUG] [AXFORM/AXFORM]: Loaded access transformer accesstransformer.cfg
+[28Aug2024 17:59:47.586] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/SCAN]: Adding Access Transformer in C:\Users\uri_l\MCreatorWorkspaces\KCRVersions\kleiders_custom_renderer_1204\build\resources\main
+[28Aug2024 17:59:47.587] [main/DEBUG] [AXFORM/AXFORM]: Loading access transformer accesstransformer.cfg
+[28Aug2024 17:59:47.592] [main/DEBUG] [AXFORM/AXFORM]: Loaded access transformer accesstransformer.cfg
+[28Aug2024 17:59:47.592] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/SCAN]: Adding Access Transformer in C:\Users\uri_l\.mcreator\gradle\caches\modules-2\files-2.1\dev.kosmx.player-anim\player-animation-lib-forge\1.0.2-rc1+1.20.4\fb75d9e43d2accf35ad063325b4801d4fa830f6c\player-animation-lib-forge-1.0.2-rc1+1.20.4.jar
+[28Aug2024 17:59:47.592] [main/DEBUG] [AXFORM/AXFORM]: Loading access transformer accesstransformer.cfg
+[28Aug2024 17:59:47.594] [main/DEBUG] [AXFORM/AXFORM]: Loaded access transformer accesstransformer.cfg
+[28Aug2024 17:59:47.594] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/SCAN]: Adding Access Transformer in /
+[28Aug2024 17:59:47.597] [main/DEBUG] [AXFORM/AXFORM]: Loading access transformer accesstransformer.cfg
+[28Aug2024 17:59:47.627] [main/DEBUG] [AXFORM/AXFORM]: Loaded access transformer accesstransformer.cfg
+[28Aug2024 17:59:47.632] [main/DEBUG] [mixin/]: Adding mixin platform agents for container net.neoforged.fml.loading.mixin.FMLMixinContainerHandle@10bea4
+[28Aug2024 17:59:47.633] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for net.neoforged.fml.loading.mixin.FMLMixinContainerHandle@10bea4
+[28Aug2024 17:59:47.633] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container net.neoforged.fml.loading.mixin.FMLMixinContainerHandle@10bea4
+[28Aug2024 17:59:47.633] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for net.neoforged.fml.loading.mixin.FMLMixinContainerHandle@10bea4
+[28Aug2024 17:59:47.633] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container net.neoforged.fml.loading.mixin.FMLMixinContainerHandle@10bea4
+[28Aug2024 17:59:47.633] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for net.neoforged.fml.loading.mixin.FMLMixinContainerHandle@10bea4
+[28Aug2024 17:59:47.633] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent accepted container net.neoforged.fml.loading.mixin.FMLMixinContainerHandle@10bea4
+[28Aug2024 17:59:47.653] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading transformers
+[28Aug2024 17:59:47.654] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service mixin
+[28Aug2024 17:59:47.656] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service mixin
+[28Aug2024 17:59:47.656] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service mixin-synthetic-package
+[28Aug2024 17:59:47.656] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service mixin-synthetic-package
+[28Aug2024 17:59:47.657] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service fml
+[28Aug2024 17:59:47.657] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Loading coremod transformers
+[28Aug2024 17:59:47.658] [main/DEBUG] [net.neoforged.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_method.js
+[28Aug2024 17:59:47.660] [background-scan-handler-3/DEBUG] [net.neoforged.fml.loading.moddiscovery.MinecraftLocator/SCAN]: Scan started: Mod File: /
+[28Aug2024 17:59:47.660] [background-scan-handler-1/DEBUG] [net.neoforged.fml.loading.moddiscovery.MinecraftLocator/SCAN]: Scan started: Mod File: C:\Users\uri_l\MCreatorWorkspaces\KCRVersions\kleiders_custom_renderer_1204\build\resources\main
+[28Aug2024 17:59:47.660] [background-scan-handler-0/DEBUG] [net.neoforged.fml.loading.moddiscovery.MinecraftLocator/SCAN]: Scan started: Mod File: C:\Users\uri_l\MCreatorWorkspaces\KCRVersions\kleiders_custom_renderer_1204\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\20.4.223\neoforge-20.4.223.jar
+[28Aug2024 17:59:47.660] [background-scan-handler-2/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractJarFileModProvider/SCAN]: Scan started: Mod File: C:\Users\uri_l\.mcreator\gradle\caches\modules-2\files-2.1\dev.kosmx.player-anim\player-animation-lib-forge\1.0.2-rc1+1.20.4\fb75d9e43d2accf35ad063325b4801d4fa830f6c\player-animation-lib-forge-1.0.2-rc1+1.20.4.jar
+[28Aug2024 17:59:47.744] [background-scan-handler-1/DEBUG] [net.neoforged.fml.loading.moddiscovery.MinecraftLocator/SCAN]: Scan finished: Mod File: C:\Users\uri_l\MCreatorWorkspaces\KCRVersions\kleiders_custom_renderer_1204\build\resources\main
+[28Aug2024 17:59:47.747] [background-scan-handler-1/DEBUG] [net.neoforged.fml.loading.moddiscovery.Scanner/SCAN]: Scanning C:\Users\uri_l\MCreatorWorkspaces\KCRVersions\kleiders_custom_renderer_1204\build\resources\main with language loader javafml
+[28Aug2024 17:59:47.747] [background-scan-handler-2/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractJarFileModProvider/SCAN]: Scan finished: Mod File: C:\Users\uri_l\.mcreator\gradle\caches\modules-2\files-2.1\dev.kosmx.player-anim\player-animation-lib-forge\1.0.2-rc1+1.20.4\fb75d9e43d2accf35ad063325b4801d4fa830f6c\player-animation-lib-forge-1.0.2-rc1+1.20.4.jar
+[28Aug2024 17:59:47.747] [background-scan-handler-2/DEBUG] [net.neoforged.fml.loading.moddiscovery.Scanner/SCAN]: Scanning C:\Users\uri_l\.mcreator\gradle\caches\modules-2\files-2.1\dev.kosmx.player-anim\player-animation-lib-forge\1.0.2-rc1+1.20.4\fb75d9e43d2accf35ad063325b4801d4fa830f6c\player-animation-lib-forge-1.0.2-rc1+1.20.4.jar with language loader javafml
+[28Aug2024 17:59:47.758] [background-scan-handler-2/DEBUG] [net.neoforged.fml.javafmlmod.FMLJavaModLanguageProvider/SCAN]: Found @Mod class dev.kosmx.playerAnim.forge.ForgeModInterface with id playeranimator
+[28Aug2024 17:59:47.758] [background-scan-handler-1/DEBUG] [net.neoforged.fml.javafmlmod.FMLJavaModLanguageProvider/SCAN]: Found @Mod class com.kleiders.kleidersplayerrenderer.KleidersCustomRendererMod with id kleiders_custom_renderer
+[28Aug2024 17:59:47.990] [background-scan-handler-3/DEBUG] [net.neoforged.fml.loading.moddiscovery.MinecraftLocator/SCAN]: Scan finished: Mod File: /
+[28Aug2024 17:59:47.990] [background-scan-handler-3/DEBUG] [net.neoforged.fml.loading.moddiscovery.Scanner/SCAN]: Scanning / with language loader javafml
+[28Aug2024 17:59:47.992] [background-scan-handler-3/DEBUG] [net.neoforged.fml.javafmlmod.FMLJavaModLanguageProvider/SCAN]: Found @Mod class net.neoforged.neoforge.common.NeoForgeMod with id neoforge
+[28Aug2024 17:59:48.164] [main/DEBUG] [net.neoforged.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[28Aug2024 17:59:48.165] [main/DEBUG] [net.neoforged.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_instanceof.js
+[28Aug2024 17:59:48.338] [main/DEBUG] [net.neoforged.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[28Aug2024 17:59:48.338] [main/DEBUG] [net.neoforged.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/add_bouncer_method.js
+[28Aug2024 17:59:48.410] [main/DEBUG] [net.neoforged.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[28Aug2024 17:59:48.410] [main/DEBUG] [net.neoforged.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/method_redirector.js
+[28Aug2024 17:59:48.537] [main/DEBUG] [net.neoforged.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[28Aug2024 17:59:48.570] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@1ee27d73 to Target : CLASS {Lnet/minecraft/world/level/biome/Biome;} {} {V}
+[28Aug2024 17:59:48.574] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@2a39aa2b to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/Structure;} {} {V}
+[28Aug2024 17:59:48.574] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@62b93086 to Target : CLASS {Lnet/minecraft/world/level/block/LiquidBlock;} {} {V}
+[28Aug2024 17:59:48.574] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@254449bb to Target : CLASS {Lnet/minecraft/world/item/BucketItem;} {} {V}
+[28Aug2024 17:59:48.574] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@4e642ee1 to Target : CLASS {Lnet/minecraft/world/level/block/StairBlock;} {} {V}
+[28Aug2024 17:59:48.574] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@29ebbdf4 to Target : CLASS {Lnet/minecraft/world/level/block/FlowerPotBlock;} {} {V}
+[28Aug2024 17:59:48.574] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@2fd954f to Target : CLASS {Lnet/minecraft/network/play/client/CClientSettingsPacket;} {} {V}
+[28Aug2024 17:59:48.575] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@5731d3a to Target : CLASS {Lnet/minecraft/world/entity/monster/Evoker$EvokerSummonSpellGoal;} {} {V}
+[28Aug2024 17:59:48.575] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@5731d3a to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/WoodlandMansionPieces$WoodlandMansionPiece;} {} {V}
+[28Aug2024 17:59:48.575] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@5731d3a to Target : CLASS {Lnet/minecraft/world/entity/monster/Strider;} {} {V}
+[28Aug2024 17:59:48.575] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@5731d3a to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/SwampHutPiece;} {} {V}
+[28Aug2024 17:59:48.575] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@5731d3a to Target : CLASS {Lnet/minecraft/world/entity/animal/horse/SkeletonTrapGoal;} {} {V}
+[28Aug2024 17:59:48.575] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@5731d3a to Target : CLASS {Lnet/minecraft/world/entity/animal/frog/Tadpole;} {} {V}
+[28Aug2024 17:59:48.575] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@5731d3a to Target : CLASS {Lnet/minecraft/world/entity/EntityType;} {} {V}
+[28Aug2024 17:59:48.576] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@5731d3a to Target : CLASS {Lnet/minecraft/world/entity/npc/CatSpawner;} {} {V}
+[28Aug2024 17:59:48.576] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@5731d3a to Target : CLASS {Lnet/minecraft/world/entity/monster/Zombie;} {} {V}
+[28Aug2024 17:59:48.576] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@5731d3a to Target : CLASS {Lnet/minecraft/world/level/NaturalSpawner;} {} {V}
+[28Aug2024 17:59:48.576] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@5731d3a to Target : CLASS {Lnet/minecraft/world/entity/monster/Spider;} {} {V}
+[28Aug2024 17:59:48.576] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@5731d3a to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$OceanMonumentPiece;} {} {V}
+[28Aug2024 17:59:48.576] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@5731d3a to Target : CLASS {Lnet/minecraft/world/entity/npc/Villager;} {} {V}
+[28Aug2024 17:59:48.576] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@5731d3a to Target : CLASS {Lnet/minecraft/world/level/levelgen/PatrolSpawner;} {} {V}
+[28Aug2024 17:59:48.576] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@5731d3a to Target : CLASS {Lnet/minecraft/server/commands/RaidCommand;} {} {V}
+[28Aug2024 17:59:48.576] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@5731d3a to Target : CLASS {Lnet/minecraft/world/entity/raid/Raid;} {} {V}
+[28Aug2024 17:59:48.576] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@5731d3a to Target : CLASS {Lnet/minecraft/server/commands/SummonCommand;} {} {V}
+[28Aug2024 17:59:48.577] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@5731d3a to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate;} {} {V}
+[28Aug2024 17:59:48.577] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@5731d3a to Target : CLASS {Lnet/minecraft/world/entity/ai/village/VillageSiege;} {} {V}
+[28Aug2024 17:59:48.577] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@5731d3a to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/OceanRuinPieces$OceanRuinPiece;} {} {V}
+[28Aug2024 17:59:48.577] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@5731d3a to Target : CLASS {Lnet/minecraft/world/level/levelgen/PhantomSpawner;} {} {V}
+[28Aug2024 17:59:48.577] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@5731d3a to Target : CLASS {Lnet/minecraft/world/entity/monster/ZombieVillager;} {} {V}
+[28Aug2024 17:59:48.577] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service fml
+[28Aug2024 17:59:48.768] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[28Aug2024 17:59:48.769] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:net.neoforged.fml.loading.mixin.FMLMixinContainerHandle@10bea4]
+[28Aug2024 17:59:48.769] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[FMLMixinPlatformAgent:null]
+[28Aug2024 17:59:48.870] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[28Aug2024 17:59:48.871] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(mixinsynthetic)
+[28Aug2024 17:59:48.871] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(mixinsynthetic)
+[28Aug2024 17:59:48.871] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(mixinsynthetic)
+[28Aug2024 17:59:48.871] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(mixinsynthetic)
+[28Aug2024 17:59:48.871] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(mixinsynthetic)
+[28Aug2024 17:59:48.871] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(mixinsynthetic)
+[28Aug2024 17:59:48.871] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(mixinsynthetic)
+[28Aug2024 17:59:48.872] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mixinsynthetic)]
+[28Aug2024 17:59:48.872] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(minecraft)
+[28Aug2024 17:59:48.872] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(minecraft)
+[28Aug2024 17:59:48.872] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(minecraft)
+[28Aug2024 17:59:48.872] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(minecraft)
+[28Aug2024 17:59:48.872] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(minecraft)
+[28Aug2024 17:59:48.872] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(minecraft)
+[28Aug2024 17:59:48.872] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(minecraft)
+[28Aug2024 17:59:48.872] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[28Aug2024 17:59:48.872] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(kleiders_custom_renderer)
+[28Aug2024 17:59:48.872] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(kleiders_custom_renderer)
+[28Aug2024 17:59:48.873] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(kleiders_custom_renderer)
+[28Aug2024 17:59:48.873] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(kleiders_custom_renderer)
+[28Aug2024 17:59:48.873] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(kleiders_custom_renderer)
+[28Aug2024 17:59:48.873] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(kleiders_custom_renderer)
+[28Aug2024 17:59:48.873] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(kleiders_custom_renderer)
+[28Aug2024 17:59:48.873] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(kleiders_custom_renderer)]
+[28Aug2024 17:59:48.873] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(playeranimator)
+[28Aug2024 17:59:48.873] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(playeranimator)
+[28Aug2024 17:59:48.873] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(playeranimator)
+[28Aug2024 17:59:48.873] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(playeranimator)
+[28Aug2024 17:59:48.873] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(playeranimator)
+[28Aug2024 17:59:48.873] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(playeranimator)
+[28Aug2024 17:59:48.873] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(playeranimator)
+[28Aug2024 17:59:48.874] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(playeranimator)]
+[28Aug2024 17:59:48.874] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(neoforge)
+[28Aug2024 17:59:48.874] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(neoforge)
+[28Aug2024 17:59:48.874] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(neoforge)
+[28Aug2024 17:59:48.874] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(neoforge)
+[28Aug2024 17:59:48.874] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(neoforge)
+[28Aug2024 17:59:48.874] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(neoforge)
+[28Aug2024 17:59:48.874] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(neoforge)
+[28Aug2024 17:59:48.874] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(neoforge)]
+[28Aug2024 17:59:48.875] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(mixinextras.neoforge)
+[28Aug2024 17:59:48.875] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(mixinextras.neoforge)
+[28Aug2024 17:59:48.875] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(mixinextras.neoforge)
+[28Aug2024 17:59:48.875] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(mixinextras.neoforge)
+[28Aug2024 17:59:48.875] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(mixinextras.neoforge)
+[28Aug2024 17:59:48.875] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(mixinextras.neoforge)
+[28Aug2024 17:59:48.875] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(mixinextras.neoforge)
+[28Aug2024 17:59:48.875] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mixinextras.neoforge)]
+[28Aug2024 17:59:48.875] [main/DEBUG] [mixin/]: Registering mixin config: mixinextras.init.mixins.json
+[28Aug2024 17:59:48.878] [main/DEBUG] [mixin/]: inject() running with 8 agents
+[28Aug2024 17:59:48.878] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[28Aug2024 17:59:48.878] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:net.neoforged.fml.loading.mixin.FMLMixinContainerHandle@10bea4]
+[28Aug2024 17:59:48.878] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[FMLMixinPlatformAgent:null]
+[28Aug2024 17:59:48.879] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mixinsynthetic)]
+[28Aug2024 17:59:48.879] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[28Aug2024 17:59:48.879] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(kleiders_custom_renderer)]
+[28Aug2024 17:59:48.879] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(playeranimator)]
+[28Aug2024 17:59:48.879] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(neoforge)]
+[28Aug2024 17:59:48.879] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mixinextras.neoforge)]
+[28Aug2024 17:59:48.879] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, 20.4.223, --gameDir, ., --assetsDir, C:\Users\uri_l\.mcreator\gradle\caches\minecraft\assets\1.20.4, --assetIndex, asset-index]
+[28Aug2024 17:59:49.002] [main/DEBUG] [mixin/]: Error cleaning class output directory: .mixin.out
+[28Aug2024 17:59:49.018] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[28Aug2024 17:59:49.019] [main/DEBUG] [mixin/]: Selecting config playerAnimator-common.mixins.json
+[28Aug2024 17:59:49.043] [main/DEBUG] [mixin/]: Selecting config mixinextras.init.mixins.json
+[28Aug2024 17:59:49.114] [main/DEBUG] [MixinExtras|Service/]: com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5) is taking over from null
+[28Aug2024 17:59:49.206] [main/DEBUG] [mixin/]: Registering new injector for @Inject with org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo
+[28Aug2024 17:59:49.210] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArg with org.spongepowered.asm.mixin.injection.struct.ModifyArgInjectionInfo
+[28Aug2024 17:59:49.214] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArgs with org.spongepowered.asm.mixin.injection.struct.ModifyArgsInjectionInfo
+[28Aug2024 17:59:49.221] [main/DEBUG] [mixin/]: Registering new injector for @Redirect with org.spongepowered.asm.mixin.injection.struct.RedirectInjectionInfo
+[28Aug2024 17:59:49.224] [main/DEBUG] [mixin/]: Registering new injector for @ModifyVariable with org.spongepowered.asm.mixin.injection.struct.ModifyVariableInjectionInfo
+[28Aug2024 17:59:49.228] [main/DEBUG] [mixin/]: Registering new injector for @ModifyConstant with org.spongepowered.asm.mixin.injection.struct.ModifyConstantInjectionInfo
+[28Aug2024 17:59:49.257] [main/DEBUG] [mixin/]: Preparing playerAnimator-common.mixins.json (14)
+[28Aug2024 17:59:49.285] [background-scan-handler-0/DEBUG] [net.neoforged.fml.loading.moddiscovery.MinecraftLocator/SCAN]: Scan finished: Mod File: C:\Users\uri_l\MCreatorWorkspaces\KCRVersions\kleiders_custom_renderer_1204\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\20.4.223\neoforge-20.4.223.jar
+[28Aug2024 17:59:49.285] [background-scan-handler-0/DEBUG] [net.neoforged.fml.loading.moddiscovery.Scanner/SCAN]: Scanning C:\Users\uri_l\MCreatorWorkspaces\KCRVersions\kleiders_custom_renderer_1204\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\20.4.223\neoforge-20.4.223.jar with language loader minecraft
+[28Aug2024 17:59:49.350] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/renderer/entity/layers/HumanoidArmorLayer @Lnet/neoforged/api/distmarker/OnlyIn;
+[28Aug2024 17:59:49.361] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/renderer/entity/layers/HumanoidArmorLayer to metadata cache
+[28Aug2024 17:59:49.380] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/model/HumanoidModel @Lnet/neoforged/api/distmarker/OnlyIn;
+[28Aug2024 17:59:49.388] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/model/HumanoidModel to metadata cache
+[28Aug2024 17:59:49.390] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/Camera @Lnet/neoforged/api/distmarker/OnlyIn;
+[28Aug2024 17:59:49.393] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/Camera to metadata cache
+[28Aug2024 17:59:49.405] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.client.renderer.entity.EntityRenderDispatcher FIELD renderers to access PUBLIC and LEAVE
+[28Aug2024 17:59:49.405] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/renderer/entity/EntityRenderDispatcher @Lnet/neoforged/api/distmarker/OnlyIn;
+[28Aug2024 17:59:49.408] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/renderer/entity/EntityRenderDispatcher to metadata cache
+[28Aug2024 17:59:49.411] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/renderer/entity/layers/RenderLayer @Lnet/neoforged/api/distmarker/OnlyIn;
+[28Aug2024 17:59:49.411] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/renderer/entity/layers/RenderLayer to metadata cache
+[28Aug2024 17:59:49.412] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/renderer/entity/layers/ItemInHandLayer @Lnet/neoforged/api/distmarker/OnlyIn;
+[28Aug2024 17:59:49.412] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/renderer/entity/layers/ItemInHandLayer to metadata cache
+[28Aug2024 17:59:49.414] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/renderer/ItemInHandRenderer @Lnet/neoforged/api/distmarker/OnlyIn;
+[28Aug2024 17:59:49.418] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/renderer/ItemInHandRenderer to metadata cache
+[28Aug2024 17:59:49.431] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.client.renderer.LevelRenderer METHOD shouldShowEntityOutlines()Z to access PUBLIC and LEAVE
+[28Aug2024 17:59:49.432] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/renderer/LevelRenderer @Lnet/neoforged/api/distmarker/OnlyIn;
+[28Aug2024 17:59:49.466] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/renderer/LevelRenderer to metadata cache
+[28Aug2024 17:59:49.469] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.client.renderer.entity.LivingEntityRenderer METHOD addLayer(Lnet/minecraft/client/renderer/entity/layers/RenderLayer;)Z to access PUBLIC and LEAVE
+[28Aug2024 17:59:49.469] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/renderer/entity/LivingEntityRenderer @Lnet/neoforged/api/distmarker/OnlyIn;
+[28Aug2024 17:59:49.478] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/renderer/entity/LivingEntityRenderer to metadata cache
+[28Aug2024 17:59:49.481] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.client.model.geom.ModelPart CLASS to access PUBLIC and REMOVEFINAL
+[28Aug2024 17:59:49.483] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/model/geom/ModelPart @Lnet/neoforged/api/distmarker/OnlyIn;
+[28Aug2024 17:59:49.485] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/model/geom/ModelPart to metadata cache
+[28Aug2024 17:59:49.489] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.entity.player.Player METHOD closeContainer()V to access PUBLIC and LEAVE
+[28Aug2024 17:59:49.497] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/player/Player to metadata cache
+[28Aug2024 17:59:49.498] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/model/PlayerModel @Lnet/neoforged/api/distmarker/OnlyIn;
+[28Aug2024 17:59:49.501] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/model/PlayerModel to metadata cache
+[28Aug2024 17:59:49.503] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.client.renderer.entity.player.PlayerRenderer METHOD setModelProperties(Lnet/minecraft/client/player/AbstractClientPlayer;)V to access PUBLIC and LEAVE
+[28Aug2024 17:59:49.503] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/renderer/entity/player/PlayerRenderer @Lnet/neoforged/api/distmarker/OnlyIn;
+[28Aug2024 17:59:49.504] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/renderer/entity/player/PlayerRenderer to metadata cache
+[28Aug2024 17:59:49.505] [main/DEBUG] [mixin/]: Preparing mixinextras.init.mixins.json (0)
+[28Aug2024 17:59:49.530] [main/TRACE] [mixin/]: Added class metadata for java/lang/invoke/MethodHandles$Lookup to metadata cache
+[28Aug2024 17:59:49.531] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/model/AgeableListModel @Lnet/neoforged/api/distmarker/OnlyIn;
+[28Aug2024 17:59:49.532] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/model/AgeableListModel to metadata cache
+[28Aug2024 17:59:49.535] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/renderer/MultiBufferSource$BufferSource @Lnet/neoforged/api/distmarker/OnlyIn;
+[28Aug2024 17:59:49.536] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/renderer/MultiBufferSource$BufferSource to metadata cache
+[28Aug2024 17:59:49.538] [main/TRACE] [mixin/]: Added class metadata for org/spongepowered/asm/mixin/injection/At$Shift to metadata cache
+[28Aug2024 17:59:49.539] [main/TRACE] [mixin/]: Added class metadata for dev/kosmx/playerAnim/minecraftApi/PlayerAnimationFactory$FactoryHolder to metadata cache
+[28Aug2024 17:59:49.540] [main/TRACE] [mixin/]: Added class metadata for dev/kosmx/playerAnim/minecraftApi/PlayerAnimationAccess$AnimationRegister to metadata cache
+[28Aug2024 17:59:49.541] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/renderer/entity/EntityRendererProvider$Context @Lnet/neoforged/api/distmarker/OnlyIn;
+[28Aug2024 17:59:49.541] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/renderer/entity/EntityRendererProvider$Context to metadata cache
+[28Aug2024 17:59:49.543] [main/DEBUG] [mixin/]: Prepared 13 mixins in 0.523 sec (40.2ms avg) (0ms load, 0ms transform, 0ms plugin)
+[28Aug2024 17:59:49.547] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/gui/screens/LoadingOverlay @Lnet/neoforged/api/distmarker/OnlyIn;
+[28Aug2024 17:59:49.550] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/gui/screens/Overlay @Lnet/neoforged/api/distmarker/OnlyIn;
+[28Aug2024 17:59:49.551] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/gui/components/Renderable @Lnet/neoforged/api/distmarker/OnlyIn;
+[28Aug2024 17:59:49.554] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/renderer/texture/AbstractTexture @Lnet/neoforged/api/distmarker/OnlyIn;
+[28Aug2024 17:59:49.556] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/gui/screens/LoadingOverlay$LogoTexture @Lnet/neoforged/api/distmarker/OnlyIn;
+[28Aug2024 17:59:49.558] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/renderer/texture/SimpleTexture @Lnet/neoforged/api/distmarker/OnlyIn;
+[28Aug2024 17:59:49.559] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: com/mojang/blaze3d/vertex/BufferVertexConsumer @Lnet/neoforged/api/distmarker/OnlyIn;
+[28Aug2024 17:59:49.561] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: com/mojang/blaze3d/vertex/VertexConsumer @Lnet/neoforged/api/distmarker/OnlyIn;
+[28Aug2024 17:59:49.565] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/gui/GuiGraphics @Lnet/neoforged/api/distmarker/OnlyIn;
+[28Aug2024 17:59:49.588] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.client.Minecraft FIELD textureManager to access PUBLIC and LEAVE
+[28Aug2024 17:59:49.588] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.client.Minecraft METHOD createSearchTrees()V to access PUBLIC and LEAVE
+[28Aug2024 17:59:49.589] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/Minecraft @Lnet/neoforged/api/distmarker/OnlyIn;
+[28Aug2024 17:59:49.599] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: com/mojang/blaze3d/platform/WindowEventHandler @Lnet/neoforged/api/distmarker/OnlyIn;
+[28Aug2024 17:59:49.618] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.util.thread.BlockableEventLoop METHOD submitAsync(Ljava/lang/Runnable;)Ljava/util/concurrent/CompletableFuture; to access PUBLIC and LEAVE
+[28Aug2024 17:59:50.259] [main/DEBUG] [io.netty.util.internal.logging.InternalLoggerFactory/]: Using SLF4J as the default logging framework
+[28Aug2024 17:59:50.270] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.level: simple
+[28Aug2024 17:59:50.271] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.targetRecords: 4
+[28Aug2024 17:59:50.602] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@4232b34a
+[28Aug2024 17:59:51.008] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.architecture.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@4232b34a
+[28Aug2024 17:59:51.366] [pool-7-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/EntityType
+[28Aug2024 17:59:51.843] [pool-7-thread-1/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[28Aug2024 17:59:51.844] [pool-7-thread-1/DEBUG] [mixin/]: Registering new injector for @SugarWrapper with com.llamalad7.mixinextras.sugar.impl.SugarWrapperInjectionInfo
+[28Aug2024 17:59:51.845] [pool-7-thread-1/DEBUG] [mixin/]: Registering new injector for @FactoryRedirectWrapper with com.llamalad7.mixinextras.wrapper.factory.FactoryRedirectWrapperInjectionInfo
+[28Aug2024 17:59:51.867] [pool-7-thread-1/DEBUG] [mixin/]: Mixing PlayerEntityMixin from playerAnimator-common.mixins.json into net.minecraft.world.entity.player.Player
+[28Aug2024 17:59:51.899] [pool-7-thread-1/DEBUG] [mixin/]: playerAnimator-common.mixins.json:PlayerEntityMixin from mod playeranimator: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[28Aug2024 17:59:52.008] [pool-7-thread-1/DEBUG] [mixin/]: playerAnimator-common.mixins.json:PlayerEntityMixin from mod playeranimator->@Inject::tick(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[28Aug2024 17:59:52.009] [pool-7-thread-1/DEBUG] [mixin/]: playerAnimator-common.mixins.json:PlayerEntityMixin from mod playeranimator->@Inject::tick(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[28Aug2024 17:59:52.009] [pool-7-thread-1/DEBUG] [mixin/]: playerAnimator-common.mixins.json:PlayerEntityMixin from mod playeranimator->@Inject::tick(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[28Aug2024 17:59:52.284] [pool-7-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/StairBlock
+[28Aug2024 17:59:52.299] [pool-7-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/FlowerPotBlock
+[28Aug2024 17:59:52.312] [pool-7-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/LiquidBlock
+[28Aug2024 17:59:53.514] [pool-7-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/biome/Biome
+[28Aug2024 17:59:54.467] [pool-7-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/animal/frog/Tadpole
+[28Aug2024 17:59:55.442] [pool-7-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/BucketItem
+[28Aug2024 17:59:56.464] [pool-7-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Spider
+[28Aug2024 17:59:56.550] [pool-7-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Zombie
+[28Aug2024 17:59:56.599] [pool-7-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/ZombieVillager
+[28Aug2024 17:59:56.667] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 198 Datafixer optimizations took 309 milliseconds
+[28Aug2024 17:59:56.705] [pool-7-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Evoker$EvokerSummonSpellGoal
+[28Aug2024 17:59:57.015] [pool-7-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/animal/horse/SkeletonTrapGoal
+[28Aug2024 17:59:57.048] [pool-7-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Strider
+[28Aug2024 17:59:57.213] [pool-7-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/npc/Villager
+[28Aug2024 17:59:57.761] [pool-7-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: -Dio.netty.noUnsafe: false
+[28Aug2024 17:59:57.761] [pool-7-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: Java version: 17
+[28Aug2024 17:59:57.761] [pool-7-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.theUnsafe: available
+[28Aug2024 17:59:57.762] [pool-7-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.copyMemory: available
+[28Aug2024 17:59:57.762] [pool-7-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.storeFence: available
+[28Aug2024 17:59:57.762] [pool-7-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Buffer.address: available
+[28Aug2024 17:59:57.764] [pool-7-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Bits.unaligned: available, true
+[28Aug2024 17:59:57.765] [pool-7-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+[28Aug2024 17:59:57.765] [pool-7-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: sun.misc.Unsafe: available
+[28Aug2024 17:59:57.765] [pool-7-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: maxDirectMemory: 8573157376 bytes (maybe)
+[28Aug2024 17:59:57.766] [pool-7-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.tmpdir: C:\Users\uri_l\AppData\Local\Temp (java.io.tmpdir)
+[28Aug2024 17:59:57.766] [pool-7-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[28Aug2024 17:59:57.766] [pool-7-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: Platform: Windows
+[28Aug2024 17:59:57.766] [pool-7-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.maxDirectMemory: -1 bytes
+[28Aug2024 17:59:57.766] [pool-7-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[28Aug2024 17:59:57.767] [pool-7-thread-1/DEBUG] [io.netty.util.internal.CleanerJava9/]: java.nio.ByteBuffer.cleaner(): available
+[28Aug2024 17:59:57.767] [pool-7-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.noPreferDirect: false
+[28Aug2024 17:59:58.274] [pool-7-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/Structure
+[28Aug2024 17:59:58.318] [pool-7-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/OceanRuinPieces$OceanRuinPiece
+[28Aug2024 17:59:58.328] [pool-7-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/SwampHutPiece
+[28Aug2024 17:59:58.335] [pool-7-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$OceanMonumentPiece
+[28Aug2024 17:59:58.361] [pool-7-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/WoodlandMansionPieces$WoodlandMansionPiece
+[28Aug2024 17:59:58.728] [pool-7-thread-1/DEBUG] [net.neoforged.neoforge.registries.GameData/REGISTRIES]: Creating vanilla freeze snapshot
+[28Aug2024 17:59:58.765] [pool-7-thread-1/DEBUG] [net.neoforged.neoforge.registries.GameData/REGISTRIES]: Vanilla freeze snapshot created
+[28Aug2024 17:59:59.494] [main/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/server/commands/SummonCommand
+[28Aug2024 17:59:59.614] [main/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/server/commands/RaidCommand
+[28Aug2024 17:59:59.700] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[28Aug2024 17:59:59.702] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[28Aug2024 17:59:59.706] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[28Aug2024 17:59:59.708] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[28Aug2024 17:59:59.709] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[28Aug2024 17:59:59.923] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/uri_l/MCreatorWorkspaces/KCRVersions/kleiders_custom_renderer_1204/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/20.4.223/neoforge-20.4.223.jar%23192!/assets/.mcassetsroot' uses unexpected schema
+[28Aug2024 17:59:59.924] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/uri_l/MCreatorWorkspaces/KCRVersions/kleiders_custom_renderer_1204/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/20.4.223/neoforge-20.4.223.jar%23192!/data/.mcassetsroot' uses unexpected schema
+[28Aug2024 18:00:00.000] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[28Aug2024 18:00:00.008] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[28Aug2024 18:00:00.326] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.2+13
+[28Aug2024 18:00:00.639] [Render thread/DEBUG] [net.neoforged.neoforge.common.I18nExtension/CORE]: Loading I18N data entries: 6783
+[28Aug2024 18:00:00.658] [Render thread/DEBUG] [net.neoforged.fml.ModWorkManager/LOADING]: Using 16 threads for parallel mod-loading
+[28Aug2024 18:00:00.665] [Render thread/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for com.kleiders.kleidersplayerrenderer.KleidersCustomRendererMod
+[28Aug2024 18:00:00.667] [Render thread/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for dev.kosmx.playerAnim.forge.ForgeModInterface
+[28Aug2024 18:00:00.668] [Render thread/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.neoforged.neoforge.common.NeoForgeMod
+[28Aug2024 18:00:00.681] [modloading-worker-0/DEBUG] [net.neoforged.neoforge.internal.versions.neoforge.NeoForgeVersion/CORE]: NeoForge Version package package net.neoforged.neoforge.internal.versions.neoforge, NeoForge, version 20.4 from cpw.mods.modlauncher.TransformingClassLoader@4232b34a
+[28Aug2024 18:00:00.681] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for playeranimator
+[28Aug2024 18:00:00.681] [modloading-worker-0/DEBUG] [net.neoforged.neoforge.internal.versions.neoforge.NeoForgeVersion/CORE]: Found NeoForge version 20.4.223
+[28Aug2024 18:00:00.682] [modloading-worker-0/DEBUG] [net.neoforged.neoforge.internal.versions.neoforge.NeoForgeVersion/CORE]: Found NeoForge spec 20.4
+[28Aug2024 18:00:00.682] [modloading-worker-0/DEBUG] [net.neoforged.neoforge.internal.versions.neoforge.NeoForgeVersion/CORE]: Found NeoForge group net.neoforged
+[28Aug2024 18:00:00.682] [modloading-worker-0/DEBUG] [net.neoforged.neoforge.internal.versions.neoform.NeoFormVersion/CORE]: NeoForm Version package package net.neoforged.neoforge.internal.versions.neoform from cpw.mods.modlauncher.TransformingClassLoader@4232b34a
+[28Aug2024 18:00:00.683] [modloading-worker-0/DEBUG] [net.neoforged.neoforge.internal.versions.neoform.NeoFormVersion/CORE]: Found MC version information 1.20.4
+[28Aug2024 18:00:00.683] [modloading-worker-0/DEBUG] [net.neoforged.neoforge.internal.versions.neoform.NeoFormVersion/CORE]: Found NeoForm version information 20231207.154220
+[28Aug2024 18:00:00.683] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 20.4.223, for MC 1.20.4 with MCP 20231207.154220
+[28Aug2024 18:00:00.683] [modloading-worker-0/DEBUG] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: Loading Network data for FML net version: 20.4
+[28Aug2024 18:00:00.687] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing dev.kosmx.playerAnim.forge.ForgeClientEvent to MOD
+[28Aug2024 18:00:00.696] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for kleiders_custom_renderer
+[28Aug2024 18:00:00.697] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.kleiders.kleidersplayerrenderer.init.KleidersCustomRendererModKeyMappings$KeyEventListener to FORGE
+[28Aug2024 18:00:00.698] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.kleiders.kleidersplayerrenderer.init.KleidersCustomRendererModKeyMappings to MOD
+[28Aug2024 18:00:00.701] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.kleiders.kleidersplayerrenderer.init.KleidersCustomRendererModModels to MOD
+[28Aug2024 18:00:00.702] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.kleiders.kleidersplayerrenderer.network.KleidersCustomRendererModVariables$EventBusVariableHandlers to FORGE
+[28Aug2024 18:00:00.704] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.kleiders.kleidersplayerrenderer.network.KleidersCustomRendererModVariables to MOD
+[28Aug2024 18:00:00.704] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.kleiders.kleidersplayerrenderer.network.TestMessage to MOD
+[28Aug2024 18:00:00.707] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.kleiders.kleidersplayerrenderer.procedures.DenjiTestProcedure to FORGE
+[28Aug2024 18:00:00.709] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file neoforge-client.toml for neoforge tracking
+[28Aug2024 18:00:00.710] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file neoforge-server.toml for neoforge tracking
+[28Aug2024 18:00:00.710] [modloading-worker-0/DEBUG] [net.neoforged.fml.ModLoadingContext/]: Attempted to register an empty config for type COMMON on mod neoforge
+[28Aug2024 18:00:00.710] [modloading-worker-0/DEBUG] [mixin/]: Mixing PlayerRendererMixin from playerAnimator-common.mixins.json into net.minecraft.client.renderer.entity.player.PlayerRenderer
+[28Aug2024 18:00:00.712] [modloading-worker-0/DEBUG] [mixin/]: playerAnimator-common.mixins.json:PlayerRendererMixin from mod playeranimator: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[28Aug2024 18:00:00.759] [modloading-worker-0/DEBUG] [mixin/]: playerAnimator-common.mixins.json:PlayerRendererMixin from mod playeranimator->@Inject::hideBonesInFirstPerson(Lnet/minecraft/client/player/AbstractClientPlayer;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[28Aug2024 18:00:00.759] [modloading-worker-0/DEBUG] [mixin/]: playerAnimator-common.mixins.json:PlayerRendererMixin from mod playeranimator->@Inject::hideBonesInFirstPerson(Lnet/minecraft/client/player/AbstractClientPlayer;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[28Aug2024 18:00:00.759] [modloading-worker-0/DEBUG] [mixin/]: playerAnimator-common.mixins.json:PlayerRendererMixin from mod playeranimator->@Inject::hideBonesInFirstPerson(Lnet/minecraft/client/player/AbstractClientPlayer;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[28Aug2024 18:00:00.759] [modloading-worker-0/DEBUG] [mixin/]: playerAnimator-common.mixins.json:PlayerRendererMixin from mod playeranimator->@Inject::applyBodyTransforms(Lnet/minecraft/client/player/AbstractClientPlayer;Lcom/mojang/blaze3d/vertex/PoseStack;FFFLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[28Aug2024 18:00:00.759] [modloading-worker-0/DEBUG] [mixin/]: playerAnimator-common.mixins.json:PlayerRendererMixin from mod playeranimator->@Inject::applyBodyTransforms(Lnet/minecraft/client/player/AbstractClientPlayer;Lcom/mojang/blaze3d/vertex/PoseStack;FFFLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[28Aug2024 18:00:00.760] [modloading-worker-0/DEBUG] [mixin/]: playerAnimator-common.mixins.json:PlayerRendererMixin from mod playeranimator->@Inject::applyBodyTransforms(Lnet/minecraft/client/player/AbstractClientPlayer;Lcom/mojang/blaze3d/vertex/PoseStack;FFFLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[28Aug2024 18:00:00.760] [modloading-worker-0/DEBUG] [mixin/]: playerAnimator-common.mixins.json:PlayerRendererMixin from mod playeranimator->@Inject::notifyModelOfFirstPerson(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;ILnet/minecraft/client/player/AbstractClientPlayer;Lnet/minecraft/client/model/geom/ModelPart;Lnet/minecraft/client/model/geom/ModelPart;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[28Aug2024 18:00:00.760] [modloading-worker-0/DEBUG] [mixin/]: playerAnimator-common.mixins.json:PlayerRendererMixin from mod playeranimator->@Inject::notifyModelOfFirstPerson(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;ILnet/minecraft/client/player/AbstractClientPlayer;Lnet/minecraft/client/model/geom/ModelPart;Lnet/minecraft/client/model/geom/ModelPart;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[28Aug2024 18:00:00.760] [modloading-worker-0/DEBUG] [mixin/]: playerAnimator-common.mixins.json:PlayerRendererMixin from mod playeranimator->@Inject::notifyModelOfFirstPerson(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;ILnet/minecraft/client/player/AbstractClientPlayer;Lnet/minecraft/client/model/geom/ModelPart;Lnet/minecraft/client/model/geom/ModelPart;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[28Aug2024 18:00:00.765] [modloading-worker-0/DEBUG] [mixin/]: Mixing firstPerson.LivingEntityRendererMixin from playerAnimator-common.mixins.json into net.minecraft.client.renderer.entity.LivingEntityRenderer
+[28Aug2024 18:00:00.765] [modloading-worker-0/DEBUG] [mixin/]: playerAnimator-common.mixins.json:firstPerson.LivingEntityRendererMixin from mod playeranimator: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[28Aug2024 18:00:00.765] [modloading-worker-0/DEBUG] [mixin/]: Renaming synthetic method lambda$filterLayers$0(Ljava/lang/Object;)Z to md93e1d5$playeranimator$lambda$filterLayers$0$0 in playerAnimator-common.mixins.json:firstPerson.LivingEntityRendererMixin from mod playeranimator
+[28Aug2024 18:00:00.841] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for neoforge
+[28Aug2024 18:00:00.841] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.network.NetworkInitialization to MOD
+[28Aug2024 18:00:00.843] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.network.filters.GenericPacketSplitter to MOD
+[28Aug2024 18:00:00.950] [modloading-worker-0/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkAccessible: true
+[28Aug2024 18:00:00.951] [modloading-worker-0/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkBounds: true
+[28Aug2024 18:00:00.951] [modloading-worker-0/DEBUG] [io.netty.util.ResourceLeakDetectorFactory/]: Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@68967fb9
+[28Aug2024 18:00:00.958] [modloading-worker-0/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[28Aug2024 18:00:00.958] [modloading-worker-0/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[28Aug2024 18:00:00.961] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numHeapArenas: 32
+[28Aug2024 18:00:00.961] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numDirectArenas: 32
+[28Aug2024 18:00:00.961] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.pageSize: 8192
+[28Aug2024 18:00:00.961] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxOrder: 9
+[28Aug2024 18:00:00.961] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.chunkSize: 4194304
+[28Aug2024 18:00:00.961] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.smallCacheSize: 256
+[28Aug2024 18:00:00.961] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.normalCacheSize: 64
+[28Aug2024 18:00:00.962] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[28Aug2024 18:00:00.962] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimInterval: 8192
+[28Aug2024 18:00:00.962] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[28Aug2024 18:00:00.962] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.useCacheForAllThreads: false
+[28Aug2024 18:00:00.962] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[28Aug2024 18:00:00.969] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.allocator.type: pooled
+[28Aug2024 18:00:00.969] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.threadLocalDirectBufferSize: 0
+[28Aug2024 18:00:00.969] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[28Aug2024 18:00:00.974] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.network.ConfigurationInitialization to MOD
+[28Aug2024 18:00:00.976] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.common.DeferredSpawnEggItem$CommonHandler to MOD
+[28Aug2024 18:00:00.977] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.common.DeferredSpawnEggItem$ColorRegisterHandler to MOD
+[28Aug2024 18:00:00.978] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.client.model.data.ModelDataManager to FORGE
+[28Aug2024 18:00:00.979] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.client.ClientNeoForgeMod to MOD
+[28Aug2024 18:00:00.981] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.client.ClientHooks$ClientEvents to MOD
+[28Aug2024 18:00:00.983] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.client.BlockEntityRenderBoundsDebugRenderer to FORGE
+[28Aug2024 18:00:00.984] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.attachment.AttachmentInternals to FORGE
+[28Aug2024 18:00:01.004] [Render thread/DEBUG] [net.neoforged.neoforge.registries.GameData/REGISTRIES]: Unfreezing registries
+[28Aug2024 18:00:01.155] [Render thread/DEBUG] [net.neoforged.neoforge.registries.GameData/REGISTRIES]: Freezing registries
+[28Aug2024 18:00:01.183] [Render thread/DEBUG] [net.neoforged.neoforge.registries.GameData/REGISTRIES]: All registries frozen
+[28Aug2024 18:00:01.399] [Render thread/DEBUG] [mixin/]: Mixing firstPerson.EntityRenderDispatcherMixin from playerAnimator-common.mixins.json into net.minecraft.client.renderer.entity.EntityRenderDispatcher
+[28Aug2024 18:00:01.399] [Render thread/DEBUG] [mixin/]: playerAnimator-common.mixins.json:firstPerson.EntityRenderDispatcherMixin from mod playeranimator: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[28Aug2024 18:00:01.401] [Render thread/DEBUG] [mixin/]: playerAnimator-common.mixins.json:firstPerson.EntityRenderDispatcherMixin from mod playeranimator->@Inject::renderShadow_HEAD_PlayerAnimator(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;Lnet/minecraft/world/entity/Entity;FFLnet/minecraft/world/level/LevelReader;FLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V does use it's CallbackInfo
+[28Aug2024 18:00:01.469] [Render thread/DEBUG] [mixin/]: Mixing firstPerson.ItemInHandRendererMixin from playerAnimator-common.mixins.json into net.minecraft.client.renderer.ItemInHandRenderer
+[28Aug2024 18:00:01.469] [Render thread/DEBUG] [mixin/]: playerAnimator-common.mixins.json:firstPerson.ItemInHandRendererMixin from mod playeranimator: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[28Aug2024 18:00:01.475] [Render thread/DEBUG] [mixin/]: playerAnimator-common.mixins.json:firstPerson.ItemInHandRendererMixin from mod playeranimator->@Inject::disableDefaultItemIfNeeded(FLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource$BufferSource;Lnet/minecraft/client/player/LocalPlayer;ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V does use it's CallbackInfo
+[28Aug2024 18:00:01.475] [Render thread/DEBUG] [mixin/]: playerAnimator-common.mixins.json:firstPerson.ItemInHandRendererMixin from mod playeranimator->@Inject::cancelItemRender(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemDisplayContext;ZLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V does use it's CallbackInfo
+[28Aug2024 18:00:01.480] [Render thread/DEBUG] [mixin/]: Mixing firstPerson.CameraAccessor from playerAnimator-common.mixins.json into net.minecraft.client.Camera
+[28Aug2024 18:00:01.481] [Render thread/DEBUG] [mixin/]: playerAnimator-common.mixins.json:firstPerson.CameraAccessor from mod playeranimator: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[28Aug2024 18:00:01.501] [Render thread/DEBUG] [mixin/]: Mixing firstPerson.LevelRendererMixin from playerAnimator-common.mixins.json into net.minecraft.client.renderer.LevelRenderer
+[28Aug2024 18:00:01.501] [Render thread/DEBUG] [mixin/]: playerAnimator-common.mixins.json:firstPerson.LevelRendererMixin from mod playeranimator: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[28Aug2024 18:00:01.514] [Render thread/DEBUG] [mixin/]: playerAnimator-common.mixins.json:firstPerson.LevelRendererMixin from mod playeranimator->@Inject::fakeThirdPersonMode(Lcom/mojang/blaze3d/vertex/PoseStack;FJZLnet/minecraft/client/Camera;Lnet/minecraft/client/renderer/GameRenderer;Lnet/minecraft/client/renderer/LightTexture;Lorg/joml/Matrix4f;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[28Aug2024 18:00:01.514] [Render thread/DEBUG] [mixin/]: playerAnimator-common.mixins.json:firstPerson.LevelRendererMixin from mod playeranimator->@Inject::fakeThirdPersonMode(Lcom/mojang/blaze3d/vertex/PoseStack;FJZLnet/minecraft/client/Camera;Lnet/minecraft/client/renderer/GameRenderer;Lnet/minecraft/client/renderer/LightTexture;Lorg/joml/Matrix4f;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[28Aug2024 18:00:01.514] [Render thread/DEBUG] [mixin/]: playerAnimator-common.mixins.json:firstPerson.LevelRendererMixin from mod playeranimator->@Inject::fakeThirdPersonMode(Lcom/mojang/blaze3d/vertex/PoseStack;FJZLnet/minecraft/client/Camera;Lnet/minecraft/client/renderer/GameRenderer;Lnet/minecraft/client/renderer/LightTexture;Lorg/joml/Matrix4f;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[28Aug2024 18:00:01.514] [Render thread/DEBUG] [mixin/]: playerAnimator-common.mixins.json:firstPerson.LevelRendererMixin from mod playeranimator->@Inject::resetThirdPerson(Lcom/mojang/blaze3d/vertex/PoseStack;FJZLnet/minecraft/client/Camera;Lnet/minecraft/client/renderer/GameRenderer;Lnet/minecraft/client/renderer/LightTexture;Lorg/joml/Matrix4f;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[28Aug2024 18:00:01.514] [Render thread/DEBUG] [mixin/]: playerAnimator-common.mixins.json:firstPerson.LevelRendererMixin from mod playeranimator->@Inject::resetThirdPerson(Lcom/mojang/blaze3d/vertex/PoseStack;FJZLnet/minecraft/client/Camera;Lnet/minecraft/client/renderer/GameRenderer;Lnet/minecraft/client/renderer/LightTexture;Lorg/joml/Matrix4f;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[28Aug2024 18:00:01.514] [Render thread/DEBUG] [mixin/]: playerAnimator-common.mixins.json:firstPerson.LevelRendererMixin from mod playeranimator->@Inject::resetThirdPerson(Lcom/mojang/blaze3d/vertex/PoseStack;FJZLnet/minecraft/client/Camera;Lnet/minecraft/client/renderer/GameRenderer;Lnet/minecraft/client/renderer/LightTexture;Lorg/joml/Matrix4f;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[28Aug2024 18:00:01.514] [Render thread/DEBUG] [mixin/]: playerAnimator-common.mixins.json:firstPerson.LevelRendererMixin from mod playeranimator->@Inject::dontRenderEntity_End(Lnet/minecraft/world/entity/Entity;DDDFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[28Aug2024 18:00:01.514] [Render thread/DEBUG] [mixin/]: playerAnimator-common.mixins.json:firstPerson.LevelRendererMixin from mod playeranimator->@Inject::dontRenderEntity_End(Lnet/minecraft/world/entity/Entity;DDDFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[28Aug2024 18:00:01.514] [Render thread/DEBUG] [mixin/]: playerAnimator-common.mixins.json:firstPerson.LevelRendererMixin from mod playeranimator->@Inject::dontRenderEntity_End(Lnet/minecraft/world/entity/Entity;DDDFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[28Aug2024 18:00:01.679] [Render thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: []
+[28Aug2024 18:00:01.813] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: mod_resources, mod:kleiders_custom_renderer, mod:playeranimator, mod:neoforge, vanilla
+[28Aug2024 18:00:01.830] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loading configs type CLIENT
+[28Aug2024 18:00:01.832] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for C:\Users\uri_l\MCreatorWorkspaces\KCRVersions\kleiders_custom_renderer_1204\runs\client\config\neoforge-client.toml
+[28Aug2024 18:00:01.841] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file C:\Users\uri_l\MCreatorWorkspaces\KCRVersions\kleiders_custom_renderer_1204\runs\client\config\neoforge-client.toml
+[28Aug2024 18:00:01.863] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file C:\Users\uri_l\MCreatorWorkspaces\KCRVersions\kleiders_custom_renderer_1204\runs\client\config\neoforge-client.toml for changes
+[28Aug2024 18:00:01.894] [modloading-worker-0/DEBUG] [net.neoforged.neoforge.common.NeoForgeConfig/FORGEMOD]: Loaded NeoForge config file neoforge-client.toml
+[28Aug2024 18:00:01.895] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loading configs type COMMON
+[28Aug2024 18:00:02.025] [Worker-Main-10/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.04.hex, loading
+[28Aug2024 18:00:02.149] [Render thread/DEBUG] [net.neoforged.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work for work queue COMMON_SETUP: 1 jobs
+[28Aug2024 18:00:02.163] [Render thread/DEBUG] [net.neoforged.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 9.276 ms
+[28Aug2024 18:00:04.610] [Render thread/DEBUG] [net.neoforged.neoforge.common.I18nExtension/CORE]: Loading I18N data entries: 6784
+[28Aug2024 18:00:04.635] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[28Aug2024 18:00:04.635] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[28Aug2024 18:00:04.636] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.generic.wind_burst
+[28Aug2024 18:00:04.690] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Altavoces (Realtek High Definition Audio)
+[28Aug2024 18:00:04.691] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[28Aug2024 18:00:04.852] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x2 minecraft:textures/atlas/blocks.png-atlas
+[28Aug2024 18:00:04.859] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/signs.png-atlas
+[28Aug2024 18:00:04.860] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
+[28Aug2024 18:00:04.860] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
+[28Aug2024 18:00:04.861] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x2 minecraft:textures/atlas/armor_trims.png-atlas
+[28Aug2024 18:00:04.862] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
+[28Aug2024 18:00:04.864] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x2 minecraft:textures/atlas/decorated_pot.png-atlas
+[28Aug2024 18:00:04.864] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
+[28Aug2024 18:00:04.865] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
+[28Aug2024 18:00:04.870] [Render thread/DEBUG] [mixin/]: Mixing BipedEntityModelMixin from playerAnimator-common.mixins.json into net.minecraft.client.model.HumanoidModel
+[28Aug2024 18:00:04.872] [Render thread/DEBUG] [mixin/]: playerAnimator-common.mixins.json:BipedEntityModelMixin from mod playeranimator: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[28Aug2024 18:00:04.873] [Render thread/DEBUG] [mixin/]: Renaming synthetic method lambda$renderToBuffer$3(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFFLnet/minecraft/client/model/geom/ModelPart;)V to md93e1d5$playeranimator$lambda$renderToBuffer$3$0 in playerAnimator-common.mixins.json:BipedEntityModelMixin from mod playeranimator
+[28Aug2024 18:00:04.873] [Render thread/DEBUG] [mixin/]: Renaming synthetic method lambda$renderToBuffer$2(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFFLnet/minecraft/client/model/geom/ModelPart;)V to md93e1d5$playeranimator$lambda$renderToBuffer$2$1 in playerAnimator-common.mixins.json:BipedEntityModelMixin from mod playeranimator
+[28Aug2024 18:00:04.873] [Render thread/DEBUG] [mixin/]: Renaming synthetic method lambda$renderToBuffer$1(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFFLnet/minecraft/client/model/geom/ModelPart;)V to md93e1d5$playeranimator$lambda$renderToBuffer$1$2 in playerAnimator-common.mixins.json:BipedEntityModelMixin from mod playeranimator
+[28Aug2024 18:00:04.873] [Render thread/DEBUG] [mixin/]: Renaming synthetic method lambda$renderToBuffer$0(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFFLnet/minecraft/client/model/geom/ModelPart;)V to md93e1d5$playeranimator$lambda$renderToBuffer$0$3 in playerAnimator-common.mixins.json:BipedEntityModelMixin from mod playeranimator
+[28Aug2024 18:00:04.884] [Render thread/DEBUG] [mixin/]: playerAnimator-common.mixins.json:BipedEntityModelMixin from mod playeranimator->@Inject::initBend(Lnet/minecraft/client/model/geom/ModelPart;Ljava/util/function/Function;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[28Aug2024 18:00:04.884] [Render thread/DEBUG] [mixin/]: playerAnimator-common.mixins.json:BipedEntityModelMixin from mod playeranimator->@Inject::initBend(Lnet/minecraft/client/model/geom/ModelPart;Ljava/util/function/Function;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[28Aug2024 18:00:04.885] [Render thread/DEBUG] [mixin/]: playerAnimator-common.mixins.json:BipedEntityModelMixin from mod playeranimator->@Inject::initBend(Lnet/minecraft/client/model/geom/ModelPart;Ljava/util/function/Function;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[28Aug2024 18:00:04.885] [Render thread/DEBUG] [mixin/]: playerAnimator-common.mixins.json:BipedEntityModelMixin from mod playeranimator->@Inject::copyMutatedAttributes(Lnet/minecraft/client/model/HumanoidModel;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[28Aug2024 18:00:04.885] [Render thread/DEBUG] [mixin/]: playerAnimator-common.mixins.json:BipedEntityModelMixin from mod playeranimator->@Inject::copyMutatedAttributes(Lnet/minecraft/client/model/HumanoidModel;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[28Aug2024 18:00:04.885] [Render thread/DEBUG] [mixin/]: playerAnimator-common.mixins.json:BipedEntityModelMixin from mod playeranimator->@Inject::copyMutatedAttributes(Lnet/minecraft/client/model/HumanoidModel;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[28Aug2024 18:00:04.904] [Render thread/DEBUG] [mixin/]: Mixing PlayerModelMixin from playerAnimator-common.mixins.json into net.minecraft.client.model.PlayerModel
+[28Aug2024 18:00:04.904] [Render thread/DEBUG] [mixin/]: playerAnimator-common.mixins.json:PlayerModelMixin from mod playeranimator: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[28Aug2024 18:00:04.911] [Render thread/DEBUG] [mixin/]: playerAnimator-common.mixins.json:PlayerModelMixin from mod playeranimator->@Inject::initBendableStuff(Lnet/minecraft/client/model/geom/ModelPart;ZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[28Aug2024 18:00:04.911] [Render thread/DEBUG] [mixin/]: playerAnimator-common.mixins.json:PlayerModelMixin from mod playeranimator->@Inject::initBendableStuff(Lnet/minecraft/client/model/geom/ModelPart;ZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[28Aug2024 18:00:04.911] [Render thread/DEBUG] [mixin/]: playerAnimator-common.mixins.json:PlayerModelMixin from mod playeranimator->@Inject::initBendableStuff(Lnet/minecraft/client/model/geom/ModelPart;ZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[28Aug2024 18:00:04.911] [Render thread/DEBUG] [mixin/]: playerAnimator-common.mixins.json:PlayerModelMixin from mod playeranimator->@Inject::setDefaultBeforeRender(Lnet/minecraft/world/entity/LivingEntity;FFFFFLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[28Aug2024 18:00:04.912] [Render thread/DEBUG] [mixin/]: playerAnimator-common.mixins.json:PlayerModelMixin from mod playeranimator->@Inject::setDefaultBeforeRender(Lnet/minecraft/world/entity/LivingEntity;FFFFFLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[28Aug2024 18:00:04.912] [Render thread/DEBUG] [mixin/]: playerAnimator-common.mixins.json:PlayerModelMixin from mod playeranimator->@Inject::setDefaultBeforeRender(Lnet/minecraft/world/entity/LivingEntity;FFFFFLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[28Aug2024 18:00:04.912] [Render thread/DEBUG] [mixin/]: playerAnimator-common.mixins.json:PlayerModelMixin from mod playeranimator->@Inject::setEmote(Lnet/minecraft/world/entity/LivingEntity;FFFFFLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[28Aug2024 18:00:04.912] [Render thread/DEBUG] [mixin/]: playerAnimator-common.mixins.json:PlayerModelMixin from mod playeranimator->@Inject::setEmote(Lnet/minecraft/world/entity/LivingEntity;FFFFFLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[28Aug2024 18:00:04.912] [Render thread/DEBUG] [mixin/]: playerAnimator-common.mixins.json:PlayerModelMixin from mod playeranimator->@Inject::setEmote(Lnet/minecraft/world/entity/LivingEntity;FFFFFLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[28Aug2024 18:00:04.963] [Render thread/DEBUG] [mixin/]: Mixing FeatureRendererMixin from playerAnimator-common.mixins.json into net.minecraft.client.renderer.entity.layers.RenderLayer
+[28Aug2024 18:00:04.963] [Render thread/DEBUG] [mixin/]: playerAnimator-common.mixins.json:FeatureRendererMixin from mod playeranimator: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[28Aug2024 18:00:04.986] [Render thread/DEBUG] [mixin/]: playerAnimator-common.mixins.json:FeatureRendererMixin from mod playeranimator->@Inject::init(Lnet/minecraft/client/renderer/entity/RenderLayerParent;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[28Aug2024 18:00:04.987] [Render thread/DEBUG] [mixin/]: playerAnimator-common.mixins.json:FeatureRendererMixin from mod playeranimator->@Inject::init(Lnet/minecraft/client/renderer/entity/RenderLayerParent;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[28Aug2024 18:00:04.987] [Render thread/DEBUG] [mixin/]: playerAnimator-common.mixins.json:FeatureRendererMixin from mod playeranimator->@Inject::init(Lnet/minecraft/client/renderer/entity/RenderLayerParent;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[28Aug2024 18:00:05.048] [Render thread/DEBUG] [mixin/]: Mixing ModelPartMixin from playerAnimator-common.mixins.json into net.minecraft.client.model.geom.ModelPart
+[28Aug2024 18:00:05.048] [Render thread/DEBUG] [mixin/]: playerAnimator-common.mixins.json:ModelPartMixin from mod playeranimator: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[28Aug2024 18:00:05.082] [Render thread/DEBUG] [mixin/]: Mixing HeldItemMixin from playerAnimator-common.mixins.json into net.minecraft.client.renderer.entity.layers.ItemInHandLayer
+[28Aug2024 18:00:05.082] [Render thread/DEBUG] [mixin/]: playerAnimator-common.mixins.json:HeldItemMixin from mod playeranimator: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[28Aug2024 18:00:05.091] [Render thread/DEBUG] [mixin/]: playerAnimator-common.mixins.json:HeldItemMixin from mod playeranimator->@Inject::renderMixin(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemDisplayContext;Lnet/minecraft/world/entity/HumanoidArm;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[28Aug2024 18:00:05.091] [Render thread/DEBUG] [mixin/]: playerAnimator-common.mixins.json:HeldItemMixin from mod playeranimator->@Inject::renderMixin(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemDisplayContext;Lnet/minecraft/world/entity/HumanoidArm;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[28Aug2024 18:00:05.091] [Render thread/DEBUG] [mixin/]: playerAnimator-common.mixins.json:HeldItemMixin from mod playeranimator->@Inject::renderMixin(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemDisplayContext;Lnet/minecraft/world/entity/HumanoidArm;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[28Aug2024 18:00:05.092] [Render thread/DEBUG] [mixin/]: playerAnimator-common.mixins.json:HeldItemMixin from mod playeranimator->@Inject::changeItemLocation(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemDisplayContext;Lnet/minecraft/world/entity/HumanoidArm;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[28Aug2024 18:00:05.092] [Render thread/DEBUG] [mixin/]: playerAnimator-common.mixins.json:HeldItemMixin from mod playeranimator->@Inject::changeItemLocation(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemDisplayContext;Lnet/minecraft/world/entity/HumanoidArm;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[28Aug2024 18:00:05.092] [Render thread/DEBUG] [mixin/]: playerAnimator-common.mixins.json:HeldItemMixin from mod playeranimator->@Inject::changeItemLocation(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemDisplayContext;Lnet/minecraft/world/entity/HumanoidArm;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[28Aug2024 18:00:05.094] [Render thread/DEBUG] [mixin/]: Mixing ArmorFeatureRendererMixin from playerAnimator-common.mixins.json into net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer
+[28Aug2024 18:00:05.095] [Render thread/DEBUG] [mixin/]: playerAnimator-common.mixins.json:ArmorFeatureRendererMixin from mod playeranimator: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[28Aug2024 18:00:05.097] [Render thread/DEBUG] [mixin/]: playerAnimator-common.mixins.json:ArmorFeatureRendererMixin from mod playeranimator->@Inject::initInject(Lnet/minecraft/client/renderer/entity/RenderLayerParent;Lnet/minecraft/client/model/HumanoidModel;Lnet/minecraft/client/model/HumanoidModel;Lnet/minecraft/client/resources/model/ModelManager;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[28Aug2024 18:00:05.097] [Render thread/DEBUG] [mixin/]: playerAnimator-common.mixins.json:ArmorFeatureRendererMixin from mod playeranimator->@Inject::initInject(Lnet/minecraft/client/renderer/entity/RenderLayerParent;Lnet/minecraft/client/model/HumanoidModel;Lnet/minecraft/client/model/HumanoidModel;Lnet/minecraft/client/resources/model/ModelManager;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[28Aug2024 18:00:05.097] [Render thread/DEBUG] [mixin/]: playerAnimator-common.mixins.json:ArmorFeatureRendererMixin from mod playeranimator->@Inject::initInject(Lnet/minecraft/client/renderer/entity/RenderLayerParent;Lnet/minecraft/client/model/HumanoidModel;Lnet/minecraft/client/model/HumanoidModel;Lnet/minecraft/client/resources/model/ModelManager;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[28Aug2024 18:00:05.294] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[28Aug2024 18:00:05.381] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[28Aug2024 18:00:05.383] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[28Aug2024 18:00:05.383] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[28Aug2024 18:00:05.384] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[28Aug2024 18:00:18.823] [Render thread/WARN] [net.neoforged.neoforge.common.CommonHooks/WP]: The following mods have version differences that were not resolved:
+kleiders_custom_renderer (version 7.1.0 -> 7.2.0)
+Things may not work well.
+[28Aug2024 18:00:19.640] [Worker-Main-14/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/raid/Raid
+[28Aug2024 18:00:19.917] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[28Aug2024 18:00:20.120] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1271 advancements
+[28Aug2024 18:00:20.522] [Render thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[28Aug2024 18:00:20.565] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.4
+[28Aug2024 18:00:20.566] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[28Aug2024 18:00:20.636] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loading configs type SERVER
+[28Aug2024 18:00:20.636] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for C:\Users\uri_l\MCreatorWorkspaces\KCRVersions\kleiders_custom_renderer_1204\runs\client\config\neoforge-server.toml
+[28Aug2024 18:00:20.646] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file C:\Users\uri_l\MCreatorWorkspaces\KCRVersions\kleiders_custom_renderer_1204\runs\client\config\neoforge-server.toml
+[28Aug2024 18:00:20.647] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file C:\Users\uri_l\MCreatorWorkspaces\KCRVersions\kleiders_custom_renderer_1204\runs\client\config\neoforge-server.toml for changes
+[28Aug2024 18:00:20.647] [Server thread/DEBUG] [net.neoforged.neoforge.common.NeoForgeConfig/FORGEMOD]: Loaded NeoForge config file neoforge-server.toml
+[28Aug2024 18:00:20.680] [Server thread/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/PhantomSpawner
+[28Aug2024 18:00:20.686] [Server thread/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/PatrolSpawner
+[28Aug2024 18:00:20.690] [Server thread/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/npc/CatSpawner
+[28Aug2024 18:00:20.694] [Server thread/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/ai/village/VillageSiege
+[28Aug2024 18:00:21.451] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[28Aug2024 18:00:22.713] [Server thread/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate
+[28Aug2024 18:00:23.060] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Aug2024 18:00:23.080] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Aug2024 18:00:23.100] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Aug2024 18:00:23.100] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Aug2024 18:00:23.455] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Aug2024 18:00:23.959] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 15%
+[28Aug2024 18:00:24.439] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[28Aug2024 18:00:24.454] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3001 ms
+[28Aug2024 18:00:24.579] [Server thread/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/NaturalSpawner
+[28Aug2024 18:00:24.639] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 5, from 10
+[28Aug2024 18:00:24.639] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[28Aug2024 18:00:24.670] [Render thread/DEBUG] [io.netty.channel.MultithreadEventLoopGroup/]: -Dio.netty.eventLoopThreads: 32
+[28Aug2024 18:00:24.692] [Render thread/DEBUG] [io.netty.util.concurrent.GlobalEventExecutor/]: -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+[28Aug2024 18:00:24.705] [Render thread/DEBUG] [io.netty.channel.nio.NioEventLoop/]: -Dio.netty.noKeySetOptimization: false
+[28Aug2024 18:00:24.705] [Render thread/DEBUG] [io.netty.channel.nio.NioEventLoop/]: -Dio.netty.selectorAutoRebuildThreshold: 512
+[28Aug2024 18:00:24.712] [Render thread/DEBUG] [io.netty.util.internal.PlatformDependent/]: org.jctools-core.MpscChunkedArrayQueue: available
+[28Aug2024 18:00:24.773] [Render thread/DEBUG] [io.netty.channel.DefaultChannelId/]: -Dio.netty.processId: 27388 (auto-detected)
+[28Aug2024 18:00:24.781] [Render thread/DEBUG] [io.netty.util.NetUtil/]: -Djava.net.preferIPv4Stack: false
+[28Aug2024 18:00:24.781] [Render thread/DEBUG] [io.netty.util.NetUtil/]: -Djava.net.preferIPv6Addresses: system
+[28Aug2024 18:00:24.805] [Render thread/DEBUG] [io.netty.util.NetUtilInitializations/]: Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[28Aug2024 18:00:24.809] [Render thread/DEBUG] [io.netty.util.NetUtil/]: Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[28Aug2024 18:00:24.839] [Render thread/DEBUG] [io.netty.channel.DefaultChannelId/]: -Dio.netty.machineId: a8:a1:59:ff:fe:9f:be:db (auto-detected)
+[28Aug2024 18:00:25.077] [Netty Local Client IO #0/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.maxCapacityPerThread: 4096
+[28Aug2024 18:00:25.077] [Netty Local Client IO #0/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.ratio: 8
+[28Aug2024 18:00:25.077] [Netty Local Client IO #0/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.chunkSize: 32
+[28Aug2024 18:00:25.077] [Netty Local Client IO #0/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.blocking: false
+[28Aug2024 18:00:25.077] [Netty Local Client IO #0/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.batchFastThreadLocalOnly: true
+[28Aug2024 18:00:25.564] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:d398ffec] logged in with entity id 217 at (26.934871662098807, 64.0, 7.699999988079071)
+[28Aug2024 18:00:25.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[28Aug2024 18:00:25.905] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 2 advancements
+[28Aug2024 18:00:29.690] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[28Aug2024 18:00:29.723] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[28Aug2024 18:00:29.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[28Aug2024 18:00:29.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[28Aug2024 18:00:29.772] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[28Aug2024 18:01:35.890] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[28Aug2024 18:01:35.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[28Aug2024 18:01:35.917] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[28Aug2024 18:01:35.920] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[28Aug2024 18:01:35.925] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[28Aug2024 18:03:10.090] [Render thread/DEBUG] [net.neoforged.neoforge.network.DualStackUtils/]: Detected IPv6 address: "0:0:0:0:0:0:0:0"
+[28Aug2024 18:03:10.100] [Render thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[28Aug2024 18:03:10.113] [Render thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Started serving on 61805
+[28Aug2024 18:03:10.117] [Render thread/DEBUG] [net.neoforged.neoforge.network.DualStackUtils/]: Detected IPv6 address: "0:0:0:0:0:0:0:0"
+[28Aug2024 18:03:10.127] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Local game hosted on port [61805]
+[28Aug2024 18:03:16.646] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Kleiders is 1e970b15-aedc-4f2c-87a6-b8842e0a5403
+[28Aug2024 18:03:16.748] [Netty Server IO #3/DEBUG] [net.neoforged.neoforge.network.filters.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.GenericPacketSplitter@1cd622bd into net.minecraft.network.Connection@499d7248
+[28Aug2024 18:03:17.052] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Kleiders[/[2802:8011:3027:fe01:3917:f45e:af1e:1bd7]:61817] logged in with entity id 335 at (17.5, 70.0, -51.5)
+[28Aug2024 18:03:17.062] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kleiders joined the game
+[28Aug2024 18:03:17.078] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Kleiders joined the game
+[28Aug2024 18:03:17.136] [Server thread/DEBUG] [io.netty.util.internal.ThreadLocalRandom/]: -Dio.netty.initialSeedUniquifier: 0x9ead20adc4cf8a0f
+[28Aug2024 18:03:24.863] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kleiders: Teleported 2 entities to Kleiders]
+[28Aug2024 18:03:24.864] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [Kleiders: Teleported 2 entities to Kleiders]
+[28Aug2024 18:03:26.627] [Render thread/WARN] [net.minecraft.client.renderer.texture.TextureManager/]: Failed to load texture: your_mod_id:textures/entities/texturename.png
+java.io.FileNotFoundException: your_mod_id:textures/entities/texturename.png
+	at net.minecraft.server.packs.resources.ResourceProvider.lambda$getResourceOrThrow$0(ResourceProvider.java:16) ~[neoforge-20.4.223.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.server.packs.resources.ResourceProvider.getResourceOrThrow(ResourceProvider.java:16) ~[neoforge-20.4.223.jar:?]
+	at net.minecraft.client.renderer.texture.SimpleTexture$TextureImage.load(SimpleTexture.java:83) ~[neoforge-20.4.223.jar:?]
+	at net.minecraft.client.renderer.texture.SimpleTexture.getTextureImage(SimpleTexture.java:57) ~[neoforge-20.4.223.jar:?]
+	at net.minecraft.client.renderer.texture.SimpleTexture.load(SimpleTexture.java:30) ~[neoforge-20.4.223.jar:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(TextureManager.java:92) ~[neoforge-20.4.223.jar:?]
+	at net.minecraft.client.renderer.texture.TextureManager.register(TextureManager.java:63) ~[neoforge-20.4.223.jar:?]
+	at net.minecraft.client.renderer.texture.TextureManager.getTexture(TextureManager.java:113) ~[neoforge-20.4.223.jar:?]
+	at net.minecraft.client.renderer.RenderStateShard$TextureStateShard.lambda$new$0(RenderStateShard.java:626) ~[neoforge-20.4.223.jar:?]
+	at net.minecraft.client.renderer.RenderStateShard.setupRenderState(RenderStateShard.java:371) ~[neoforge-20.4.223.jar:?]
+	at com.google.common.collect.ImmutableList.forEach(ImmutableList.java:422) ~[guava-32.1.2-jre.jar:?]
+	at net.minecraft.client.renderer.RenderType$CompositeRenderType.lambda$new$1(RenderType.java:1198) ~[neoforge-20.4.223.jar:?]
+	at net.minecraft.client.renderer.RenderStateShard.setupRenderState(RenderStateShard.java:371) ~[neoforge-20.4.223.jar:?]
+	at net.minecraft.client.renderer.RenderType.end(RenderType.java:1114) ~[neoforge-20.4.223.jar:?]
+	at net.minecraft.client.renderer.MultiBufferSource$BufferSource.endBatch(MultiBufferSource.java:94) ~[neoforge-20.4.223.jar:?]
+	at net.minecraft.client.renderer.MultiBufferSource$BufferSource.getBuffer(MultiBufferSource.java:47) ~[neoforge-20.4.223.jar:?]
+	at net.minecraft.client.gui.Font$StringRenderOutput.accept(Font.java:413) ~[neoforge-20.4.223.jar:?]
+	at net.minecraft.util.StringDecomposer.feedChar(StringDecomposer.java:13) ~[neoforge-20.4.223.jar:?]
+	at net.minecraft.util.StringDecomposer.iterate(StringDecomposer.java:39) ~[neoforge-20.4.223.jar:?]
+	at net.minecraft.util.FormattedCharSequence.lambda$forward$2(FormattedCharSequence.java:19) ~[neoforge-20.4.223.jar:?]
+	at net.minecraft.client.gui.Font.renderText(Font.java:261) ~[neoforge-20.4.223.jar:?]
+	at net.minecraft.client.gui.Font.drawInternal(Font.java:223) ~[neoforge-20.4.223.jar:?]
+	at net.minecraft.client.gui.Font.drawInBatch(Font.java:128) ~[neoforge-20.4.223.jar:?]
+	at net.minecraft.client.gui.Font.drawInBatch(Font.java:111) ~[neoforge-20.4.223.jar:?]
+	at net.minecraft.client.renderer.entity.EntityRenderer.renderNameTag(EntityRenderer.java:105) ~[neoforge-20.4.223.jar:?]
+	at net.minecraft.client.renderer.entity.EntityRenderer.render(EntityRenderer.java:76) ~[neoforge-20.4.223.jar:?]
+	at net.minecraft.client.renderer.entity.LivingEntityRenderer.render(LivingEntityRenderer.java:140) ~[neoforge-20.4.223.jar:?]
+	at com.kleiders.kleidersplayerrenderer.KleidersPlayerAnimatedRenderer.render(KleidersPlayerAnimatedRenderer.java:67) ~[main/:?]
+	at com.kleiders.kleidersplayerrenderer.procedures.DenjiTestProcedure.execute(DenjiTestProcedure.java:71) ~[main/:?]
+	at com.kleiders.kleidersplayerrenderer.procedures.DenjiTestProcedure.onEventTriggered(DenjiTestProcedure.java:31) ~[main/:?]
+	at net.neoforged.bus.SubscribeEventListener.invoke(SubscribeEventListener.java:81) ~[bus-7.2.0.jar:?]
+	at net.neoforged.bus.EventBus.post(EventBus.java:386) ~[bus-7.2.0.jar:?]
+	at net.neoforged.bus.EventBus.post(EventBus.java:351) ~[bus-7.2.0.jar:?]
+	at net.minecraft.client.renderer.entity.LivingEntityRenderer.render(LivingEntityRenderer.java:54) ~[neoforge-20.4.223.jar:?]
+	at net.minecraft.client.renderer.entity.player.PlayerRenderer.render(PlayerRenderer.java:72) ~[neoforge-20.4.223.jar:?]
+	at net.minecraft.client.renderer.entity.player.PlayerRenderer.render(PlayerRenderer.java:46) ~[neoforge-20.4.223.jar:?]
+	at net.minecraft.client.renderer.entity.EntityRenderDispatcher.render(EntityRenderDispatcher.java:158) ~[neoforge-20.4.223.jar:?]
+	at net.minecraft.client.renderer.LevelRenderer.renderEntity(LevelRenderer.java:1284) ~[neoforge-20.4.223.jar:?]
+	at net.minecraft.client.renderer.LevelRenderer.renderLevel(LevelRenderer.java:1052) ~[neoforge-20.4.223.jar:?]
+	at net.minecraft.client.renderer.GameRenderer.renderLevel(GameRenderer.java:1322) ~[neoforge-20.4.223.jar:?]
+	at net.minecraft.client.renderer.GameRenderer.render(GameRenderer.java:1075) ~[neoforge-20.4.223.jar:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1263) ~[neoforge-20.4.223.jar:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:818) ~[neoforge-20.4.223.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:244) ~[neoforge-20.4.223.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-2.0.17.jar:2.0]
+	at net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:124) ~[loader-2.0.17.jar:2.0]
+	at net.neoforged.fml.loading.targets.ForgeClientUserdevLaunchHandler.runService(ForgeClientUserdevLaunchHandler.java:19) ~[loader-2.0.17.jar:2.0]
+	at net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-2.0.17.jar:2.0]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[28Aug2024 18:03:33.647] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kleiders lost connection: Disconnected
+[28Aug2024 18:03:33.647] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kleiders left the game
+[28Aug2024 18:03:33.664] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Kleiders left the game
+[28Aug2024 18:03:49.678] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[28Aug2024 18:03:49.695] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[28Aug2024 18:03:49.695] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[28Aug2024 18:03:49.710] [Server thread/INFO] [net.minecraft.server.network.ServerCommonPacketListenerImpl/]: Stopping singleplayer server as player logged out
+[28Aug2024 18:03:49.740] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[28Aug2024 18:03:49.740] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[28Aug2024 18:03:49.740] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[28Aug2024 18:03:50.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[28Aug2024 18:03:50.973] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[28Aug2024 18:03:50.978] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[28Aug2024 18:03:50.984] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[28Aug2024 18:03:50.996] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[28Aug2024 18:03:50.996] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[28Aug2024 18:03:50.996] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[28Aug2024 18:03:50.996] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[28Aug2024 18:03:51.014] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Unloading configs type SERVER

@@ -1,0 +1,23 @@
+repositories {
+  maven {
+    url = "https://cursemaven.com"
+  }
+}
+      
+dependencies {
+}
+
+
+
+repositories {
+  maven {
+      name "KosmX's maven"
+      url 'https://maven.kosmx.dev/'
+  }
+  }
+
+ dependencies {
+   implementation 'dev.kosmx.player-anim:player-animation-lib-forge:1.0.2-rc1+1.21'
+ }
+
+

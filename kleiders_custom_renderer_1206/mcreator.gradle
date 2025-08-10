@@ -1,0 +1,22 @@
+repositories {
+  maven {
+    url = "https://cursemaven.com"
+  }
+}
+      
+dependencies {
+}
+
+
+
+repositories {
+ maven {
+     url = 'https://cursemaven.com'
+ }
+}
+
+ dependencies {
+   implementation 'curse.maven:keepers-of-the-stones-ii-906406:5648080'
+ }
+
+

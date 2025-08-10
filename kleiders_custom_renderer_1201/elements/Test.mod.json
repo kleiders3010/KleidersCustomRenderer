@@ -1,0 +1,7 @@
+{
+  "_fv": 60,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"event_trigger\" deletable=\"false\" x=\"40\" y=\"40\"><field name=\"trigger\">render_event</field><next><block type=\"render_event_starter\"><next><block type=\"reworked_player_texture_changer\"><value name=\"texture\"><block type=\"get_render_event_player_texture\"></block></value><value name=\"slim\"><block type=\"is_render_event_player_slim\"></block></value><next><block type=\"reworked_player_model_changer\"><field name=\"model\">denji_armor</field><value name=\"text\"><block type=\"text\"><field name=\"TEXT\">ERROR</field></block></value></block></next></block></next></block></next></block><block type=\"logic_boolean\" x=\"750\" y=\"141\"><field name=\"BOOL\">FALSE</field></block><block type=\"text\" x=\"264\" y=\"172\"><field name=\"TEXT\">your_mod_id:textures/entities/texturename.png</field></block></xml>"
+  }
+}

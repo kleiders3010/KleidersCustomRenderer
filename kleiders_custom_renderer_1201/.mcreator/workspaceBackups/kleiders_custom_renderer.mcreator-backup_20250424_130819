@@ -1,0 +1,124 @@
+{
+  "mod_elements": [
+    {
+      "name": "KleidersPlayerRenderer",
+      "type": "code",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "kleiders_player_renderer"
+    },
+    {
+      "name": "ExternalPlayerRenderer",
+      "type": "code",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "external_player_renderer"
+    },
+    {
+      "name": "InternalPlayerRenderer",
+      "type": "code",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "internal_player_renderer"
+    },
+    {
+      "name": "ClassicPlayerRenderer",
+      "type": "code",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "classic_player_renderer"
+    },
+    {
+      "name": "KleidersEntityRenderer",
+      "type": "code",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "kleiders_entity_renderer"
+    },
+    {
+      "name": "KleidersSkinRenderer",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "kleiders_skin_renderer",
+      "metadata": {
+        "files": [
+          "src/main/java/com/kleiders/kleidersplayerrenderer/KleidersSkinRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "KleidersPlayerAnimatedRenderer",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "kleiders_player_animated_renderer",
+      "metadata": {
+        "files": [
+          "src/main/java/com/kleiders/kleidersplayerrenderer/KleidersPlayerAnimatedRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "KleidersIgnoreCancel",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "kleiders_ignore_cancel",
+      "metadata": {
+        "files": [
+          "src/main/java/com/kleiders/kleidersplayerrenderer/KleidersIgnoreCancel.java"
+        ]
+      }
+    },
+    {
+      "name": "Test",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "test",
+      "metadata": {
+        "files": [
+          "src/main/java/com/kleiders/kleidersplayerrenderer/procedures/TestProcedure.java"
+        ],
+        "dependencies": []
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "language_map": {
+    "en_us": {}
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "kleiders_custom_renderer",
+    "modName": "Kleiders Custom Renderer",
+    "version": "7.3.0",
+    "description": "Kleiders Player Renderer can be used to",
+    "author": "Kleiders, MCreator",
+    "websiteURL": "https://mcreator.net/plugin/91185/kleiders-player-renderer-change-players-skin",
+    "license": "Academic Free License v3.0",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "kleidersplayerrenderer",
+      "playeranimator"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Kleiders, MCreator",
+    "modElementsPackage": "com.kleiders.kleidersplayerrenderer"
+  },
+  "mcreatorVersion": 202400118518
+}

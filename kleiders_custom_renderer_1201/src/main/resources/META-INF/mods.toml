@@ -1,0 +1,37 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="kleiders_custom_renderer"
+version="7.4.0"
+displayName="Kleiders Custom Renderer"
+displayURL="https://mcreator.net/plugin/91185/kleiders-player-renderer-change-players-skin"
+credits="Kleiders, MCreator"
+authors="Kleiders, MCreator"
+description="Kleiders Player Renderer can be used to"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.kleiders_custom_renderer]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+
+
+[[dependencies.kleiders_custom_renderer]]
+    modId="kleidersplayerrenderer"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.kleiders_custom_renderer]]
+    modId="playeranimator"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
